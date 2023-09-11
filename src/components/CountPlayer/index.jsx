@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 
-const index = () => {
+const Index = () => {
   const [playerCount, setPlayerCount] = useState(
     parseInt(localStorage.getItem("playerCount") || 30000)
   );
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
