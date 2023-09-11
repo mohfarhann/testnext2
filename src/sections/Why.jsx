@@ -39,7 +39,7 @@ const Index = () => {
         <div className="w-full">
           <div className="flex flex-col items-center justify-between gap-4 mt-8">
             <div className="w-full p-4 bg-white">
-              <CountPlayer />
+              <CountPlayer initialPlayerCount={30000}/>
             </div>
             <div className="w-full p-4 bg-white">
               <h3 className="text-2xl font-bold">
