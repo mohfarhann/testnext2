@@ -18,8 +18,8 @@ const Index = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 mt-8">
           {cardWhy.map((item) => {
             return (
-              <div className="w-full md:w-3/12">
-                <Card className="py-4 shadow-none w-[297px] h-[374px]" key={item.id}>
+              <div className="w-full md:w-3/12" key={item.id}>
+                <Card className="py-4 shadow-none w-[297px] h-[374px]">
                   <CardBody className="overflow-visible py-2 items-center justify-center">
                     <Image
                       alt="Card background"
