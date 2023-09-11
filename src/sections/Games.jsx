@@ -25,7 +25,7 @@ const Games = () => {
         <div className="flex flex-col md:grid md:grid-cols-3 items-center justify-between gap-4 mt-8">
           {cardProduct.map((item) => {
             return (
-              <Card className="col-span-12 sm:col-span-4 h-[400px] md:h-full">
+              <Card className="col-span-12 sm:col-span-4 h-[400px] md:h-full" key={item.id}>
                 <CardHeader className="absolute z-10 top-1 flex-col !items-start p-4 gap-2 w-full md:w-6/12" key={item.id}>
                   <p className="text-tiny text-white/60 uppercase font-bold">
                     {item.header}

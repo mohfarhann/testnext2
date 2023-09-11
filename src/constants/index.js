@@ -89,6 +89,7 @@ export const cardWhy = [
 
 export const cardProduct = [
   {
+    id: 1,
     imgUrl: SportsBanner,
     title: "BK8 Sports",
     header: "Taruhan olahraga dengan odds terbaik",
@@ -103,6 +104,7 @@ export const cardProduct = [
     },
   },
   {
+    id: 2,
     imgUrl: CasinoBanner,
     title: "BK8 Casino",
     header: "Permainan Real-Time bersama live dealer",
@@ -117,6 +119,7 @@ export const cardProduct = [
     },
   },
   {
+    id: 3,
     imgUrl: SlotsBanner,
     title: "BK8 Slot",
     header: "Mesin slot online dengan RTP tinggi",
