@@ -45,7 +45,7 @@ export default function Home() {
             />
             <div className="w-full absolute top-0 h-full p-4">
               <div className="w-full md:w-8/12 md:mx-auto my-20 md:p-8">
-                <h1 className="text-4xl md:text-6xl">Slot</h1>
+                <h1 className="text-4xl md:text-6xl text-white">Slot</h1>
                 <p className="text-md md:text-xl text-white mt-2">
                   Permainan merupakan takdir kita
                 </p>
