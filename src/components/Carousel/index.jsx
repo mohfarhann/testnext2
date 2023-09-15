@@ -22,7 +22,7 @@ const Carousel = () => {
   return (
     <Splide options={splideOptions}>
       <SplideSlide>
-        <Image src={Banner1} alt="Slide 1"/>
+        <Image src={Banner1} alt="Slide 1 " className='object-cover w-full'/>
       </SplideSlide>
       <SplideSlide>
         <Image src={Banner2} alt="Slide 2"/>

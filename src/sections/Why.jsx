@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { lazy } from "react";
 import { Card, CardFooter, CardBody } from "@nextui-org/react";
 import Image from "next/image";
 import { cardWhy } from "@/constants";
@@ -19,12 +19,13 @@ const Index = () => {
           {cardWhy.map((item) => {
             return (
               <div className="w-full md:w-3/12" key={item.id}>
-                <Card className="py-4 shadow-none w-[297px] h-[374px]">
+                <Card className="py-4 shadow-none w-[297px] h-full md:h-[374px] ">
                   <CardBody className="overflow-visible py-2 items-center justify-center">
                     <Image
                       alt="Card background"
                       className="w-full object-cover rounded-xl"
                       src={item.imgUrl}
+                      onLoad={lazy}
                     />
                   </CardBody>
                   <CardFooter className="pb-0 pt-2 px-4 flex-col items-start">
@@ -39,7 +40,7 @@ const Index = () => {
         <div className="w-full">
           <div className="flex flex-col items-center justify-between gap-4 mt-8">
             <div className="w-full p-4 bg-white">
-              <CountPlayer initialPlayerCount={30000}/>
+              <CountPlayer/>
             </div>
             <div className="w-full p-4 bg-white">
               <h3 className="text-2xl font-bold">

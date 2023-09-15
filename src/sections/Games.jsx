@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { lazy } from "react";
 import { Card, CardHeader, Button, CardFooter } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +26,7 @@ const Games = () => {
           {cardProduct.map((item) => {
             return (
               <Card className="col-span-12 sm:col-span-4 h-[400px] md:h-full" key={item.id}>
-                <CardHeader className="absolute z-10 top-1 flex-col !items-start p-4 gap-2 w-full md:w-6/12" key={item.id}>
+                <CardHeader className="absolute z-10 top-1 flex-col items-start p-4 gap-2 w-full md:w-6/12 h-full" key={item.id}>
                   <p className="text-tiny text-white/60 uppercase font-bold">
                     {item.header}
                   </p>
@@ -44,7 +44,7 @@ const Games = () => {
                     <li>- {item.list.list5}</li>
                     <li>- {item.list.list6}</li>
                   </ul>
-                  <Button as={Link} color="warning" href="http://hokiselalu.us/daftar" variant="solid" className="w-full md:w-4/12">
+                  <Button as={Link} color="warning" href="http://hokiselalu.us/daftar" variant="solid" className=" absolute bottom-4 w-6/12 md:w-4/12 ">
                     <p className="text-white">Main Sekarang</p>
                   </Button>
                 </CardHeader>
@@ -53,6 +53,7 @@ const Games = () => {
                   alt="Card background"
                   className={`z-0 w-full h-full object-cover md:${styles.blur}`}
                   src={item.imgUrl}
+                  onLoad={lazy}
                 />
               </Card>
             );

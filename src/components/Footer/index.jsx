@@ -37,10 +37,10 @@ import BeLogo from "@/assets/img/responsible/3.svg";
 
 const index = () => {
   return (
-    <footer>
-      <div className="w-full h-full mt-8 mb-20">
+    <footer className="relative md:h-[650px] ">
+      <div className="w-full mt-8 absolute z-[1]">
         <div className="w-full mx-auto">
-          <div className="flex flex-col items-start justify-start gap-4">
+          <div className="flex flex-col items-start justify-start gap-4 mb-10">
             <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-between border-b-2 p-2">
               <div className="w-full md:w-full">
                 <h1 className="text-base mb-2 font-bold">

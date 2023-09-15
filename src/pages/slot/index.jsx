@@ -27,17 +27,9 @@ export default function Home() {
         <Loader />
       ) : (
         <main>
-          <div className="w-full bg-blue-800 sticky top-0">
-            <div className="flex flex-row items-center justify-center gap-2 text-center p-2">
-              <Link
-                href="http://hokiselalu.us/daftar"
-                className="font-base text-xs md:text-xl md:font-bold text-white"
-              >
-                Daftar sekarang dan dapatkan Welcome Bonus Rp.20.000.000!
-              </Link>
-            </div>
-          </div>
-          <Navbar />
+          <section className="sticky top-0 z-[70]">
+            <Navbar />
+          </section>
           <section className="relative">
             <Image
               src={SlotsBanner}
@@ -61,14 +53,11 @@ export default function Home() {
               {slotCard.map((item) => {
                 return (
                   <div className="w-full" key={item.id}>
-                    <Card className="w-full h-[460px] col-span-12 sm:col-span-5">
+                    <Card className="w-full h-[550px] md:h-[460px] col-span-12 sm:col-span-5">
                       <CardHeader className="absolute z-10 top-1 flex-col items-start">
                         <p className="text-tiny text-red-400 uppercase font-bold">
                           New
                         </p>
-                        {/* <h4 className="text-white font-medium text-2xl">
-                      {item.title}
-                    </h4> */}
                       </CardHeader>
                       <Image
                         removeWrapper

@@ -83,7 +83,7 @@ export const cardWhy = [
   {
     imgUrl: penarikan,
     title: "Minimum Deposit",
-    desc: "Kami menetapkan biaya transfer bank sebesar Rp 25.000, Quick Pay sebesar Rp 50.000, transaksi menggunakan cryptocurrency dikenakan biaya Rp 25.000, dan QR/E-Wallet hanya Rp 10.000 untuk setiap transaksi.",
+    desc: "Kami menetapkan biaya transfer bank sebesar Rp 25.000, Quick Pay sebesar Rp 50.000, transaksi menggunakan cryptocurrency minimum biaya Rp 25.000, dan QR/E-Wallet hanya Rp 10.000 untuk setiap transaksi.",
   },
 ];
 
@@ -338,72 +338,204 @@ export const promotionCard = [
     id:1,
     title: "Bonus Level VIP",
     desc: "Raih bonus instan untuk kenaikan tingkatan keanggotaan Anda",
-    imgUrl: PromtionPict1
+    imgUrl: PromtionPict1,
+    list: {
+      list1: "Promosi berlaku untuk seluruh member BK8.",
+      list2: "Bonus berlaku untuk semua produk kecuali Allbet dan Mega888.",
+      list3: "Kenaikan level untuk VIP akan secara berurutan mulai dari Bronze sampai dengan Platinum.",
+      list4: "VIP Diamond hanya berlaku melalui undangan.",
+      list5: "Bonus yang bisa didapat hanyalah bonus di level yang anda capai. Contohnya, apabila anda mencapai level Bronze dari Normal, maka anda hanya bisa mendapatkan bonus Rp 250.000.",
+      list6: "Bonus akan otomatis dikreditkan ke dompet pilihan dalam waktu 1x24 jam setelah Manager VIP BK8 menghubungi Anda.",
+      list7: "Syarat dan ketentuan umum promosi BK8 berlaku.",
+      list8: "",
+      list9: "",
+    }
   },
   {
     id:2,
     title: "Welcome Bonus Hingga Rp 20.000.000 ",
     desc: "Nikmati Welcome Bonus hingga Rp 20.000.000 dengan TO terendah.",
-    imgUrl: PromtionPict2
+    imgUrl: PromtionPict2,
+    list: {
+      list1: "Promosi ini hanya berlaku untuk member yang baru mendaftar di BK8.",
+      list2: "Semua promosi dibatasi oleh 1 (satu) akun perorangan, keluarga, alamat rumah, alamat email, nomor telepon, account bank, alamat IP atau komputer umum, (contoh: sekolah, perpustakaan umum, atau tempat kerja).",
+      list3: "Kami berhak untuk membatalkan promosi yang diklaim dan menyita semua bonus serta kemenangan apabila ditemukan pelanggaran kapan saja tanpa info lebih dahulu.",
+      list4: "Jumlah Deposit + Bonus harus diselesaikan dalam waktu 30 hari.",
+      list5: "Taruhan dua sisi, taruhan seri serta taruhan dengan odds dibawah 0.5 (1.5 decimal) tidak termasuk dalam perhitungan turnover.",
+      list6: "Promosi ini tidak dapat digabungkan dengan promosi lainnya.",
+      list7: "Taruhan cashout dihitung sebagai perputaran yang efektif berdasarkan jumlah menang dan kalah yang terjadi. BK8 hanya akan menghitung jumlah taruhan yang telah diselesaikan dan dengan hasil menang atau kalah.",
+      list8: "Turnover dari bonus tidak akan dihitung untuk rebate.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:3,
     title: "Rebate Instan 1.2%",
     desc: "Cash rebate tertinggi tanpa batas dan tanpa turnover HARIAN TANPA KLAIM!",
-    imgUrl: PromtionPict3
+    imgUrl: PromtionPict3,
+    list: {
+      list1: "Promosi berlaku untuk semua member dengan mata uang Rupiah (IDR).",
+      list2: "Semua rebate harian akan berdasarkan pada jumlah total turnover member selama masa promosi.",
+      list3: "Rebate Instan tidak termasuk pada produk lotre dan fishing.",
+      list4: "Member dapat klaim rebate instant kapanpun.",
+      list5: "Promosi ini tidak dapat digabungkan dengan promosi BK8 lainnya.",
+      list6: "BK8 hanya akan menghitung jumlah taruhan yang telah diselesaikan dan dengan hasil menang atau kalah.  ",
+      list7: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
+      list8: "Member yang berpartisipasi dalam kegiatan ini harus menerima dan mematuhi aturan dan ketentuan di atas serta semua peraturan dan ketentuan yang relevan dari implementasi situs web oleh BK8.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:4,
     title: "Cashback Mingguan Non Sports 17% ",
     desc: "Dapatkan cashback mingguan sampai dengan Rp 3.200.000 dengan bermain dalam permainan Non-Sports (Live Casino, Slot dan Fishing)",
-    imgUrl: PromtionPict4
+    imgUrl: PromtionPict4,
+    list: {
+      list1: "Promosi berlaku untuk semua member dengan mata uang Rupiah (IDR).",
+      list2: "Taruhan pada dua sisi yang berlawanan atau hasil imbang tidak termasuk dalam perhitungan turnover. Hanya taruhan menang/kalah saja yang dihitung.",
+      list3: "Bonus tidak bisa digabungkan dengan promosi lainnya.",
+      list4: "Cashback dikenakan turnover 3 (Tiga) kali sebelum penarikan bisa dilakukan.",
+      list5: "Turnover dari bonus tidak akan dihitung untuk rebate.",
+      list6: "Turnover bonus harus diselesaikan dalam waktu 7 hari.",
+      list7: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
+      list8: "Member wajib menerima dan mengikuti peraturan dan persyaratan promosi.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:5,
     title: "Cashback 16% Mingguan Sports",
     desc: "Dapatkan cashback sport mingguan di BK8 sampai dengan Rp 3.200.000",
-    imgUrl: PromtionPict5
+    imgUrl: PromtionPict5,
+    list: {
+      list1: "Promosi berlaku untuk semua member dengan mata uang Rupiah (IDR).",
+      list2: "Taruhan pada dua sisi yang berlawanan atau hasil imbang tidak termasuk dalam perhitungan turnover. Hanya taruhan menang/kalah saja yang dihitung.",
+      list3: "Minimal odds 1.50 (DEC) atau -2.00 (Indo).",
+      list4: "Bonus tidak bisa digabungkan dengan promosi lainnya.",
+      list5: "Cashback dikenakan turnover 3 (Tiga) kali sebelum penarikan bisa dilakukan.",
+      list6: "Turnover dari bonus tidak akan dihitung untuk rebate.",
+      list7: "Turnover bonus harus diselesaikan dalam waktu 7 hari.",
+      list8: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:6,
     title: "Reload Bonus Revolusioner",
     desc: "Deposit dan klaim Reload Bonus mingguan Anda hingga Rp 12.500.000 sekarang! ",
-    imgUrl: PromtionPict6
+    imgUrl: PromtionPict6,
+    list: {
+      list1: "Bonus akan dikreditkan pukul 18:00 WIB setiap hari senin minggu berikutnya pada dompet pilihan member..",
+      list2: "Taruhan pada dua sisi yang berlawanan atau hasil imbang tidak termasuk dalam perhitungan turnover.",
+      list3: "Member hanya dapat mengklaim bonus reload 1 kali setiap minggunya. Member yang sudah mengklaim bonus reload di salah satu produk, tidak dapat mengklaim bonus reload di produk lainnya di minggu yang sama.",
+      list4: "Jumlah Deposit + Bonus harus diselesaikan dalam waktu 7 hari",
+      list5: "Promosi ini tidak diperbolehkan untuk akun duplikat, jika terjadi kecurangan atau penyalahgunaan akun, semua bonus dan jumlah kemenangan akan disita.",
+      list6: "Promosi ini tidak dapat digabungkan dengan promosi lainnya.",
+      list7: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya. ",
+      list8: "Bonus tidak termasuk dalam perhitungan rebate.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:7,
     title: "Hadiah Bulanan - September Ceria!",
     desc: "Nikmati hadiah mempesona di bulan September dengan bermain bersama kami!",
-    imgUrl: PromtionPict7
+    imgUrl: PromtionPict7,
+    list: {
+      list1: "Promosi berlaku untuk semua member dengan mata uang Rupiah (IDR).",
+      list2: "Member dengan turnover minimal Rp 2.500.000.000 atau di atas berhak mendapatkan satu (1) hadiah dan satu (1) merchandise saja. Merchandise tidak dapat diuangkan.",
+      list3: "Member dengan turnover Rp 180.000.000 atau di bawah berhak untuk mendapatkan satu (1) merchandise saja. Merchandise tidak dapat diuangkan.",
+      list4: "Member harus klik tombol “APPLY” di promosi ini dan isi nama, nomor hp, alamat dan pilihan merchandise yang diinginkan di kolom remark.",
+      list5: "Kesalahan, kelupaan mengisi remark pada form dinyatakan tidak sah.",
+      list6: "Minimal odds 1.50 (DEC) atau -2.00 (Indo).",
+      list7: "Bonus tidak bisa digabungkan dengan promosi lainnya.",
+      list8: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:8,
     title: "First Bet On Us 25% Sampai Rp 288.000 – Jaminan Risiko",
     desc: "Nikmati bonus cashback 25% sampai dengan Rp 288.000 dari taruhan pertama Anda dengan jaminan reksiko dari BK8.",
-    imgUrl: PromtionPict8
+    imgUrl: PromtionPict8,
+    list: {
+      list1: "Hanya berlaku untuk member baru dengan tidak memiliki riwayat bermain dalam  permainan jenis sports.",
+      list2: "Penawaran ini hanya berlaku maksimal 72 jam setelah taruhan pertama pada pertandingan telah berakhir. Apabila proses klaim setelah kurun waktu 72 jam setelah taruhan pada pertandingan berakhir, maka promo ini tidak akan dilayani.",
+      list3: "Member yang terdaftar harus memberikan nomor ponsel untuk proses verifikasi sebelum menerapkan promo ini.",
+      list4: "VIP Diamond hanya berlaku melalui undangan.",
+      list5: "Bonus yang bisa didapat hanyalah bonus di level yang anda capai. Contohnya, apabila anda mencapai level Bronze dari Normal, maka anda hanya bisa mendapatkan bonus Rp 250.000.",
+      list6: "Bonus akan otomatis dikreditkan ke dompet pilihan dalam waktu 1x24 jam setelah Manager VIP BK8 menghubungi Anda.",
+      list7: "Apabila terjadi kesalahan pada penempatan taruhan /data diri Anda/nominal tauhan, maka secara otomatis promo ini akan dibatalkan.",
+      list8: "Promo ini hanya dibatasi hanya satu per orang (satu per keluarga, alamat, IP, email, nomor ponsel, akun bank, kartu kredit, kartu debit, atau akun pembayaran elektronik lainnya, atau computer Bersama seperti (sekolahan, perpustakaan umum, atau tempat kerja).",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:9,
     title: "Ajak Teman Dan Dapatkan Bonus Tanpa Batas",
     desc: "Undang teman Anda untuk mencoba permainan terbaik BK8 dan nikmati bonus spesial tanpa batas.",
-    imgUrl: PromtionPict9
+    imgUrl: PromtionPict9,
+    list: {
+      list1: "Penawaran ini terbuka untuk seluruh member aktif BK8 dengan menggunakan mata uang Rupiah (IDR).",
+      list2: "Bonus akan otomatis diberikan jika member yang diundang telah melakukan deposit dengan jumlah minimal Rp 1.000.000 dalam waktu 30 hari sejak tanggal pendaftaran.",
+      list3: "Baik member yang diundang maupun member yang mengundang akan mendapatkan bonus masing-masing Rp 50.000 yang akan dikreditkan ke dompet utama.",
+      list4: "Member dapat melakukan penarikan apabila telah mencapai persyaratan 8 kali turnover.",
+      list5: "Untuk melihat sejarah referral dan bonus, silakan kunjungi tab referral di halaman akun Anda.",
+      list6: "Bonus yang bisa didapat hanyalah bonus di level yang anda capai. Contohnya, apabila anda mencapai level Bronze dari Normal, maka anda hanya bisa mendapatkan bonus Rp 250.000.",
+      list7: "Syarat dan ketentuan umum promosi BK8 berlaku.",
+      list8: "",
+      list9: ""
+    }
   },
   {
     id:10,
     title: "Ulang Tahun Bersama BK8",
     desc: "Terus bermain bersama BK8 dan bersiap untuk kejutan di hari ultah anda",
-    imgUrl: PromtionPict10
+    imgUrl: PromtionPict10,
+    list: {
+      list1: "Produk yang memenuhi syarat untuk promosi ini berlaku untuk Semua produk kecuali Allbet, dan Mega888.",
+      list2: "Non slot game (Table Games, Video Poker, RNG, Scratch, Arcade) tidak dianggap dalam turnover.",
+      list3: "Taruhan pada dua sisi yang berlawanan atau hasil imbang tidak akan dimasukkan ke dalam perhitungan atau diperhitungkan dalam persyaratan turnover.",
+      list4: "Promosi ini tidak diperbolehkan untuk akun berganda, jika ada duplikasi atau penggunaan akun berganda, semua bonus dan jumlah kemenangan akan disita.",
+      list5: "Member tidak dapat mentransfer uang dari dan ke dompet produk, sebelum bonus sepenuhnya dipertaruhkan.",
+      list6: "Promosi ini tidak dapat digabungkan dengan promosi lainnya.",
+      list7: "BK8 hanya akan menghitung jumlah taruhan yang telah diselesaikan dan dengan hasil menang atau kalah.",
+      list8: "Bonus tidak dihitung sebagai turnover dalam rebate.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:11,
     title: "Main dan Menangkan Turnamen Spadegaming ",
     desc: "Dapatkan hadiah hingga Rp Rp 8.560.500.000 bersama Spadegaming!",
-    imgUrl: PromtionPict11
+    imgUrl: PromtionPict11,
+    list: {
+      list1: "Untuk dapat mengikuti promo ini, member diwajibkan memilih IDR sebagai pilihan mata uang.",
+      list2: "Promosi ini hanya berlaku di Spade Gaming dan sepenuhnya disediakan oleh Spade Gaming.",
+      list3: "Apabila member atau kelompok member ditemukan menggunakan metode yang tidak jujur, curang, atau mengintimidasi member/operator lain, atau ditemukan adanya menyalahgunakan celah sistem untuk mempengaruhi peringkat papan peringkat akan didiskualifikasi dari turnamen.",
+      list4: "BK8 berhak untuk membatalkan Hadiah yang diberikan jika pemenang tidak mematuhi syarat dan ketentuan di sini.",
+      list5: "BK8 adalah satu-satunya penengah dalam promosi ini, dan keputusannya bersifat final.",
+      list6: "BK8 berhak untuk mengubah, membatalkan, mengakhiri atau menangguhkan pemberian hadiah kemenangan atau bagian mana pun dari syarat dan ketentuan yang berlaku dari waktu ke waktu, dengan atau tanpa pemberitahuan sebelumnya.",
+      list7: "Member yang berpartisipasi dalam kegiatan ini harus menerima dan mematuhi aturan dan ketentuan di atas serta semua aturan dan ketentuan terkait situs web yang diterapkan oleh BK8.",
+      list8: "Semua promosi dibatasi oleh 1 (satu) akun perorangan, keluarga, alamat rumah, alamat email, nomor telepon, account bank, alamat IP atau komputer umum, (contoh: sekolah, perpustakaan umum, atau tempat kerja). ",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
   {
     id:12,
     title: "Festival Bulan Keberuntungan",
     desc: "Mendaki ke peringkat tertinggi dan raihlah bulan! Menangkan hadiah menarik saat memainkan permainan pilihan dari JILI!",
-    imgUrl: PromtionPict1
+    imgUrl: PromtionPict12,
+    list: {
+      list1: "Papan peringkat harian diperbarui setiap 5 menit. Jika ada dua atau lebih pemain dengan poin yang sama, pemain yang memasang taruhannya lebih awal akan diberikan peringkat yang lebih tinggi.",
+      list2: "Peringkat pemenang didasarkan pada papan peringkat akhir yang dipublikasikan oleh pihak JILI.",
+      list3: "JILI berhak mendiskualifikasi setiap member atau sekelompok anggota jika kedapatan menggunakan cara yang tidak jujur, menipu atau mengintimidasi member/operator lain, atau kedapatan menyalahgunakan celah sistem untuk mempengaruhi hasil.",
+      list4: "Promosi ini hanya berlaku pada provider JILI dan disediakan sepenuhnya oleh JILI.",
+      list5: "Semua promosi dibatasi oleh 1 (satu) akun perorangan, keluarga, alamat rumah, alamat email, nomor telepon, account bank, alamat IP atau komputer umum, (contoh: sekolah, perpustakaan umum, atau tempat kerja).",
+      list6: "Bonus akan otomatis dikreditkan ke dompet pilihan dalam waktu 1x24 jam setelah Manager VIP BK8 menghubungi Anda.",
+      list7: "BK8 berhak untuk mengubah, membatalkan, mengakhiri atau menangguhkan pemberian hadiah kemenangan atau bagian mana pun dari syarat dan ketentuan yang berlaku dari waktu ke waktu, dengan atau tanpa pemberitahuan sebelumnya.",
+      list8: "Member yang berpartisipasi dalam kegiatan ini harus menerima dan mematuhi aturan dan ketentuan di atas serta semua aturan dan ketentuan terkait situs web yang diterapkan oleh BK8.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    }
   },
 ]

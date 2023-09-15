@@ -27,17 +27,9 @@ export default function Home() {
         <Loader />
       ) : (
         <main>
-          <div className="w-full bg-blue-800 sticky top-0">
-            <div className="flex flex-row items-center justify-center gap-2 text-center p-2">
-              <Link
-                href="http://hokiselalu.us/daftar"
-                className="font-base text-xs md:text-xl md:font-bold text-white"
-              >
-                Daftar sekarang dan dapatkan Welcome Bonus Rp.20.000.000!
-              </Link>
-            </div>
-          </div>
-          <Navbar />
+          <section className="sticky top-0 z-[70]">
+            <Navbar />
+          </section>
           <section className="relative">
             <Image
               src={SportsBanner}
@@ -78,7 +70,7 @@ export default function Home() {
                             </Button>
                           </div>
                         </div>
-                        <div className="w-full h-[180px]">
+                        <div className="w-full h-[180px] md:h-[500px]">
                           <Image
                             src={item.imgUrl}
                             className="w-full h-full object-cover"
