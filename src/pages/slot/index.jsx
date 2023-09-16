@@ -30,7 +30,7 @@ export default function Home() {
           <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section className="relative">
+          <section className="relative mt-8 md:mt-32">
             <Image
               src={SlotsBanner}
               className="w-full h-[300px] md:h-full object-cover"

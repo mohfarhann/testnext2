@@ -18,7 +18,7 @@ export default function Home() {
     // Simulasikan pemrosesan data
     setTimeout(() => {
       setIsLoading(false);
-    }, 6000); // Ganti dengan logika pemrosesan data Anda
+    }, 3000); // Ganti dengan logika pemrosesan data Anda
   }, []);
 
   return (
@@ -30,7 +30,7 @@ export default function Home() {
           <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section className="relative">
+          <section className="relative mt-8 md:mt-32">
             <Image
               src={CasinoBanner}
               className="w-full h-[300px] md:h-full object-cover"

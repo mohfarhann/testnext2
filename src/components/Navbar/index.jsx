@@ -14,6 +14,7 @@ import {
 } from "@nextui-org/react";
 import Logo from "../../assets/img/1.svg";
 import Image from "next/image";
+import { useEffect } from "react";
 
 // export default function Index() {
 //   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -104,9 +105,29 @@ import Image from "next/image";
 
 export default function Index() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [prevScrollPos, setPrevScrollPos] = React.useState(0);
+  const [visible, setVisible] = React.useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    setVisible(prevScrollPos > currentScrollPos);
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos, visible]);
+
 
   return (
-    <div>
+    <div
+      className={`${
+        visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-100%]'
+      } transition-opacity transition-transform duration-300 ease-in-out fixed top-0 left-0 right-0 z-50 bg-white `} 
+    >
       <div className="w-full bg-blue-800">
         <div className="flex flex-row items-center justify-center gap-2 text-center p-2">
           <Link
@@ -121,7 +142,6 @@ export default function Index() {
         isBlurred={false}
         isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
-        position="sticky"
       >
         <NavbarContent className="sm:hidden" justify="start">
           <NavbarMenuToggle
@@ -144,7 +164,7 @@ export default function Index() {
             </Link>
           </NavbarBrand>
           <NavbarItem>
-            <Link color="foreground" href="/sports">
+            <Link color="foreground" href="/">
               Home
             </Link>
           </NavbarItem>

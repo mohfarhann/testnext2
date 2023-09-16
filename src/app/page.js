@@ -32,7 +32,7 @@ export default function Home() {
           <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section>
+          <section className="mt-8 md:mt-32">
             <Carousel images={images}/>
           </section>
           <section className={`${wMxAuto} p-4 md:p-0 `}>

@@ -349,6 +349,13 @@ export const promotionCard = [
       list7: "Syarat dan ketentuan umum promosi BK8 berlaku.",
       list8: "",
       list9: "",
+    },
+    promotion: {
+      title1: "Bronze mendapatkan bonus sebesar Rp.250.000 dan memiliki turnover sebanyak 1x",
+      title2: "Silver mendapatkan bonus sebesar Rp.900.000 dan memiliki turnover sebanyak 1x",
+      title3: "VIP Gold mendapatkan bonus sebesar Rp.3.250.000 dan memiliki turnover sebanyak 1x",
+      title4: "VIP Platinum mendapatkan bonus sebesar Rp.7.000.000 dan memiliki turnover sebanyak 1x",
+      title5: "VIP Diamond mendapatkan bonus sebesar Rp.15.000.000 dan memiliki turnover sebanyak 1x"
     }
   },
   {
@@ -366,6 +373,13 @@ export const promotionCard = [
       list7: "Taruhan cashout dihitung sebagai perputaran yang efektif berdasarkan jumlah menang dan kalah yang terjadi. BK8 hanya akan menghitung jumlah taruhan yang telah diselesaikan dan dengan hasil menang atau kalah.",
       list8: "Turnover dari bonus tidak akan dihitung untuk rebate.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "Member diharuskan melakukan deposit pertama dan mentransfer dana ke dompet pilihan.",
+      title2: "Untuk Welcome Bonus Kripto, member diharuskan melakukan deposit pertama dengan menggunakan mata uang Kripto.",
+      title3: "Di halaman Akun Saya, klik Transfer.",
+      title4: "Harap dicatat bahwa ada jumlah transfer minimum untuk mengaktifkan bonus ini.",
+      title5: "Member yang mengklaim jumlah maksimum Rp 20.000.000 dan dapat dihubungi oleh Perwakilan VIP kami berhak mendapatkan diskon (persentase berdasarkan jenis produk) dari persyaratan setoran VIP."
     }
   },
   {
@@ -383,6 +397,13 @@ export const promotionCard = [
       list7: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
       list8: "Member yang berpartisipasi dalam kegiatan ini harus menerima dan mematuhi aturan dan ketentuan di atas serta semua peraturan dan ketentuan yang relevan dari implementasi situs web oleh BK8.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "VIP Bronze mendapatkan promo pada Virtual Sport sebanyak 0.5%, Sports(CMD,SABA,SBO) sebanyak 0.2%, BK8 Sports sebanyak 0.3%, Casino sebanyak 0.2% dan Slot sebanyak 0.3%",
+      title2: "VIP Silver mendapatkan promo pada Virtual Sport sebanyak 0.6%, Sports(CMD,SABA,SBO) sebanyak 0.35%, BK8 Sports sebanyak 0.45%, Casino sebanyak 0.5% dan Slot sebanyak 0.5%",
+      title3: "VIP Gold mendapatkan promo pada Virtual Sport sebanyak 0.7%, Sports(CMD,SABA,SBO) sebanyak 0.4%, BK8 Sports sebanyak 0.5%, Casino sebanyak 0.7% dan Slot sebanyak 0.9%",
+      title4: "VIP Platinum mendapatkan promo pada Virtual Sport sebanyak 0.8%, Sports(CMD,SABA,SBO) sebanyak 0.5%, BK8 Sports sebanyak 0.6%, Casino sebanyak 0.8% dan Slot sebanyak 1%",
+      title5: "VIP Diamond mendapatkan promo pada Virtual Sport sebanyak 1%, Sports(CMD,SABA,SBO) sebanyak 0.7%, BK8 Sports sebanyak 0.8%, Casino sebanyak 0.8% dan Slot sebanyak 1.2%"
     }
   },
   {
@@ -400,6 +421,13 @@ export const promotionCard = [
       list7: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
       list8: "Member wajib menerima dan mengikuti peraturan dan persyaratan promosi.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "VIP Bronze mendapatkan persentase sebanyak 7% dengan maksimal bonus Rp.200.000 dan memiliki turnover sebanyak 3 kali",
+      title2: "VIP Silver mendapatkan persentase sebanyak 9% dengan maksimal bonus Rp.500.000 dan memiliki turnover sebanyak 3 kali",
+      title3: "VIP Gold mendapatkan persentase sebanyak 10% dengan maksimal bonus Rp.750.000 dan memiliki turnover sebanyak 3 kali",
+      title4: "VIP Platinum mendapatkan persentase sebanyak 12% dengan maksimal bonus Rp.2.100.000 dan memiliki turnover sebanyak 3 kali",
+      title5: "VIP Diamond mendapatkan persentase sebanyak 17% dengan maksimal bonus Rp.3.200.000 dan memiliki turnover sebanyak 3 kali"
     }
   },
   {
@@ -417,6 +445,13 @@ export const promotionCard = [
       list7: "Turnover bonus harus diselesaikan dalam waktu 7 hari.",
       list8: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "VIP Bronze mendapatkan persentase sebanyak 6% dengan maksimal bonus Rp.200.000 dan memiliki turnover sebanyak 3 kali",
+      title2: "VIP Silver mendapatkan persentase sebanyak 8% dengan maksimal bonus Rp.500.000 dan memiliki turnover sebanyak 3 kali",
+      title3: "VIP Gold mendapatkan persentase sebanyak 9% dengan maksimal bonus Rp.750.000 dan memiliki turnover sebanyak 3 kali",
+      title4: "VIP Platinum mendapatkan persentase sebanyak 11% dengan maksimal bonus Rp.2.100.000 dan memiliki turnover sebanyak 3 kali",
+      title5: "VIP Diamond mendapatkan persentase sebanyak 16% dengan maksimal bonus Rp.3.200.000 dan memiliki turnover sebanyak 3 kali"
     }
   },
   {
@@ -434,6 +469,13 @@ export const promotionCard = [
       list7: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya. ",
       list8: "Bonus tidak termasuk dalam perhitungan rebate.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "VIP Bronze mendapatkan persentase sebanyak 8% dengan maksimal bonus Rp.500.000 dan memiliki turnover sebanyak 12 kali untuk kategori Sports sedangkan kategori Non Sports akan mendapatkan persentase sebanyak 8% dengan maksimal bonus Rp.750.000 dan memiliki turnover sebanyak 10 kali",
+      title2: "VIP Silver mendapatkan persentase sebanyak 10% dengan maksimal bonus Rp.1.000.000 dan memiliki turnover sebanyak 12 kali untuk kategori Sports sedangkan kategori Non Sports akan mendapatkan persentase sebanyak 10% dengan maksimal bonus Rp.1.500.000 dan memiliki turnover sebanyak 10 kali",
+      title3: "VIP Gold mendapatkan persentase sebanyak 12% dengan maksimal bonus Rp.2.500.000 dan memiliki turnover sebanyak 12 kali untuk kategori Sports sedangkan kategori Non Sports akan mendapatkan persentase sebanyak 12% dengan maksimal bonus Rp.3.000.000 dan memiliki turnover sebanyak 10 kali",
+      title4: "VIP Platinum mendapatkan persentase sebanyak 12% dengan maksimal bonus Rp.6.000.000 dan memiliki turnover sebanyak 12 kali untuk kategori Sports sedangkan kategori Non Sports akan mendapatkan persentase sebanyak 15% dengan maksimal bonus Rp.7.000.000 dan memiliki turnover sebanyak 10 kali",
+      title5: "VIP Diamond mendapatkan persentase sebanyak 15% dengan maksimal bonus Rp.10.000.000 dan memiliki turnover sebanyak 12 kali untuk kategori Sports sedangkan kategori Non Sports akan mendapatkan persentase sebanyak 17% dengan maksimal bonus Rp.12.000.000 dan memiliki turnover sebanyak 10 kali"
     }
   },
   {
@@ -451,6 +493,13 @@ export const promotionCard = [
       list7: "Bonus tidak bisa digabungkan dengan promosi lainnya.",
       list8: "BK8 memiliki kewenangan penuh untuk merubah, menghentikan dan membatalkan promosi tanpa pemberitahuan sebelumnya.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "Hadiah Bulanan berupa Samsung Odyssey G9 49 G95T Dual QHD 240Hz Curved dengan turnover minimum Rp 18.000.000.000",
+      title2: "Hadiah Bulanan berupa Samsung Galaxy Z Flip5 8/256 GB Smartphone dengan turnover minimum Rp 15.000.000.000",
+      title3: "Hadiah Bulanan berupa Samsung Mesin Cuci Front Loading 9 Kg Ecobubble dengan turnover minimum Rp 11.000.000.000",
+      title4: "Hadiah Bulanan berupa Samsung Galaxy Watch6 Classic 47mm - Silver dengan turnover minimum Rp 5.000.000.000",
+      title5: "Hadiah Bulanan berupa Samsung Galaxy Buds2 Pro dengan turnover minimum Rp 2.400.000.000"
     }
   },
   {
@@ -468,6 +517,13 @@ export const promotionCard = [
       list7: "Apabila terjadi kesalahan pada penempatan taruhan /data diri Anda/nominal tauhan, maka secara otomatis promo ini akan dibatalkan.",
       list8: "Promo ini hanya dibatasi hanya satu per orang (satu per keluarga, alamat, IP, email, nomor ponsel, akun bank, kartu kredit, kartu debit, atau akun pembayaran elektronik lainnya, atau computer Bersama seperti (sekolahan, perpustakaan umum, atau tempat kerja).",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "Minimal taruhan sebesar Rp 50.000 pada taruhan kategori olahraga di SABA sports (MAXBET).",
+      title2: "Bonus cashback 25% dihitung berdasarkan “TOTAL BERSIH KEKALAHAN” dari hasil pemasangan taruhan pertama Anda.",
+      title3: "Member harus memasang taruhan di pilihan Awal setiap event di HDP, OU, dan 1x2 saja dengan Minimal odds 1.50 (DEC) atau -2.00 (Indo).",
+      title4: "Penawaran ini hanya berlaku maksimal 72 jam setelah taruhan pertama pada pertandingan telah berakhir.",
+      title5: "Menunjukan bukti taruhan Anda kepada layanan pelanggan kami untuk proses verifikasi."
     }
   },
   {
@@ -485,6 +541,13 @@ export const promotionCard = [
       list7: "Syarat dan ketentuan umum promosi BK8 berlaku.",
       list8: "",
       list9: ""
+    },
+    promotion: {
+      title1: "Setiap member aktif BK8 akan memiliki link kode unik referral yang didapatkan secara otomatis melalui system.",
+      title2: "Undang teman Anda untuk melakukan pendaftaran di BK8 dengan kode referral Anda.",
+      title3: "Temukan url atau kode referral Anda di halaman profil Anda, di bawah tab referral Anda.",
+      title4: "",
+      title5: ""
     }
   },
   {
@@ -502,6 +565,13 @@ export const promotionCard = [
       list7: "BK8 hanya akan menghitung jumlah taruhan yang telah diselesaikan dan dengan hasil menang atau kalah.",
       list8: "Bonus tidak dihitung sebagai turnover dalam rebate.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "VIP Bronze mendapatkan bonus sebanyak Rp.108.000 dengan total deposit per quarter (3 bulan) sebanyak Rp.3.000.000 dan memiliki turnover sebanyak 3 kali",
+      title2: "VIP Silver mendapatkan bonus sebanyak Rp.218.000 dengan total deposit per quarter (3 bulan) sebanyak Rp.3.000.000 dan memiliki turnover sebanyak 3 kali",
+      title3: "VIP Gold mendapatkan bonus sebanyak Rp.888.000 dengan total deposit per quarter (3 bulan) sebanyak Rp.3.000.000 dan memiliki turnover sebanyak 3 kali",
+      title4: "VIP Platinum mendapatkan bonus sebanyak Rp.1.888.000 dengan total deposit per quarter (3 bulan) sebanyak Rp.3.000.000 dan memiliki turnover sebanyak 3 kali",
+      title5: "VIP Diamond mendapatkan bonus sebanyak Rp.3.888.000 dengan total deposit per quarter (3 bulan) sebanyak Rp.3.000.000 dan memiliki turnover sebanyak 3 kali"
     }
   },
   {
@@ -519,6 +589,13 @@ export const promotionCard = [
       list7: "Member yang berpartisipasi dalam kegiatan ini harus menerima dan mematuhi aturan dan ketentuan di atas serta semua aturan dan ketentuan terkait situs web yang diterapkan oleh BK8.",
       list8: "Semua promosi dibatasi oleh 1 (satu) akun perorangan, keluarga, alamat rumah, alamat email, nomor telepon, account bank, alamat IP atau komputer umum, (contoh: sekolah, perpustakaan umum, atau tempat kerja). ",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "Hanya berlaku untuk member IDR.",
+      title2: "Member dengan taruhan minimum Rp 15.000 pada permainan slot Spadegaming apa pun kecuali game Jackpot berhak untuk berpartisipasi dalam promosi ini.",
+      title3: "Jenis Permainan yang memenuhi syarat: Semua permainan slot Spadegaming kecuali Jackpot.",
+      title4: "Member yang masuk ke peringkat 500 teratas di Papan Peringkat di berhak memenangkan hadiah uang tunai mingguan.",
+      title5: "Peringkat member di papan peringkat ditentukan oleh jumlah total taruhan mingguan mereka. Setiap Rp 15.000 = 100 Poin."
     }
   },
   {
@@ -536,6 +613,13 @@ export const promotionCard = [
       list7: "BK8 berhak untuk mengubah, membatalkan, mengakhiri atau menangguhkan pemberian hadiah kemenangan atau bagian mana pun dari syarat dan ketentuan yang berlaku dari waktu ke waktu, dengan atau tanpa pemberitahuan sebelumnya.",
       list8: "Member yang berpartisipasi dalam kegiatan ini harus menerima dan mematuhi aturan dan ketentuan di atas serta semua aturan dan ketentuan terkait situs web yang diterapkan oleh BK8.",
       list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
+    },
+    promotion: {
+      title1: "Semua member IDR berhak mengikuti kedua promosi ini",
+      title2: "Member diwajibkan untuk memasang taruhan dalam jumlah berapa pun di permainan slot JILI yang disebutkan di atas selama periode promosi sebagai syarat mengikuti promo ini. ",
+      title3: "Member dengan jumlah kemenangan tertinggi atau multiplier perolehan tertinggi dalam satu permainan akan dicatat oleh sistem pada papan peringkat harian.",
+      title4: "Semakin tinggi Jumlah Kemenangan Dalam Satu Permainan atau perolehan Multiplier Tertinggi Yang dicapai Dalam Satu Permainan, maka akan semakin tinggi di papan peringkat.",
+      title5: "Member yang masuk dalam peringkat 200 teratas di Papan Peringkat Harian dengan Jumlah Kemenangan Tertinggi atau Multiplier tertinggi dalam satu permainan berhak mendapatkan hadiah."
     }
   },
 ]
