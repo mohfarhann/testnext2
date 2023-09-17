@@ -11,14 +11,14 @@ import Loader from "@/components/Loader";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto mt-8 p-4 md:p-0";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0 mt-14 md:mt-28";
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Simulasikan pemrosesan data
     setTimeout(() => {
       setIsLoading(false);
-    }, 6000); // Ganti dengan logika pemrosesan data Anda
+    }, 3000); // Ganti dengan logika pemrosesan data Anda
   }, []);
 
   return (

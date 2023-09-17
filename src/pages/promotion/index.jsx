@@ -10,7 +10,6 @@ import {
   Button,
   Modal,
   ModalContent,
-  ModalHeader,
   ModalBody,
   ModalFooter,
   useDisclosure,
@@ -34,7 +33,7 @@ export default function Home() {
     }, 3000); // Ganti dengan logika pemrosesan data Anda
   }, []);
 
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto mt-8 p-4 md:p-0";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0 mt-14 md:mt-28";
   const endDate = new Date("2023-09-30");
 
   const remainingTime = useRemainingTime(endDate);
@@ -64,7 +63,7 @@ export default function Home() {
           <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section className={`${wMxAuto} mt-8 md:mt-28`}>
+          <section className={`${wMxAuto}`}>
             <div className="w-full flex flex-col items-center justify-between gap-2">
               {promotionCard.map((item) => {
                 return (
@@ -124,18 +123,16 @@ export default function Home() {
             isOpen={isOpen}
             onOpenChange={onOpenChange}
             scrollBehavior={"inside"}
-            size="4xl"
+            size="5xl"
           >
             <ModalContent>
               {(onClose) => (
                 <>
-                  <ModalHeader className="flex flex-col gap-1">
+                  <ModalBody>
                     <h1 className="text-xl md:text-4xl font-bold">
                       {selectedPromotion?.title}
                     </h1>
-                  </ModalHeader>
-                  <ModalBody className="flex flex-col items-start justify-center gap-2 text-small">
-                    <div className="w-full p-4  mt-10 md:mt-20">
+                    <div className="w-full p-4 ">
                       <Image
                         src={selectedPromotion.imgUrl}
                         className="w-full object-cover rounded-md"

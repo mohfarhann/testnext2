@@ -17,7 +17,7 @@ import PlatinumMedal from "@/assets/img/vip/medals/4.png";
 import SilverMedal from "@/assets/img/vip/medals/5.png";
 
 export default function Home() {
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto mt-8 p-4 md:p-0";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto  p-4 md:p-0 mt-14 md:mt-28";
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

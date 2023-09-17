@@ -13,7 +13,7 @@ import { useState, useEffect } from "react";
 const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
 
 export default function Home() {
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto mt-8";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto mt-14 md:mt-28";
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -29,11 +29,11 @@ export default function Home() {
         <Loader />
       ) : (
         <main>
-          <section className="sticky top-0 z-[70]">
+          <section className="sticky top-0 z-[70] mt-24">
             <Navbar />
           </section>
-          <section className="mt-8 md:mt-32">
-            <Carousel images={images}/>
+          <section className="mt-14 md:mt-32">
+            <Carousel className="w-full h-full"/>
           </section>
           <section className={`${wMxAuto} p-4 md:p-0 `}>
             <Hero />
