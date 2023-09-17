@@ -19,6 +19,7 @@ import Link from "next/link";
 import { useRemainingTime } from "@/utils/calculateDate";
 import { useState, useEffect } from "react";
 import Loader from "@/components/Loader";
+import { AiFillCaretRight } from "react-icons/ai";
 
 export default function Home() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -142,24 +143,89 @@ export default function Home() {
                       Detail Promosi{" "}
                     </p>
                     <div className="flex flex-col items-start justify-center gap-2 text-small">
-                      <p>{selectedPromotion.promotion.title1}</p>
-                      <p>{selectedPromotion.promotion.title2}</p>
-                      <p>{selectedPromotion.promotion.title3}</p>
-                      <p>{selectedPromotion.promotion.title4}</p>
-                      <p>{selectedPromotion.promotion.title5}</p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <label>
+                          <AiFillCaretRight />
+                        </label>
+                        {selectedPromotion.promotion.title1}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.promotion.title2}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.promotion.title3}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.promotion.title4}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.promotion.title5}
+                      </p>
                     </div>
                     <p className="text-xl md:text-4xl font-bold">
                       Syarat dan Ketentuan
                     </p>
                     <div className="flex flex-col items-start justify-center gap-2 text-small">
-                      <p>{selectedPromotion.list.list1}</p>
-                      <p>{selectedPromotion.list.list2}</p>
-                      <p>{selectedPromotion.list.list3}</p>
-                      <p>{selectedPromotion.list.list4}</p>
-                      <p>{selectedPromotion.list.list5}</p>
-                      <p>{selectedPromotion.list.list6}</p>
-                      <p>{selectedPromotion.list.list7}</p>
-                      <p>{selectedPromotion.list.list8}</p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list1}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list2}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list3}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list4}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list5}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list6}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list7}
+                      </p>
+                      <p className="flex flex-row items-center justify-center gap-2">
+                        <span>
+                          <AiFillCaretRight />
+                        </span>
+                        {selectedPromotion.list.list8}
+                      </p>
                     </div>
                   </ModalBody>
                   <ModalFooter>

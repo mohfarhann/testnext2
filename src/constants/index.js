@@ -341,14 +341,14 @@ export const promotionCard = [
     imgUrl: PromtionPict1,
     list: {
       list1: "Promosi berlaku untuk seluruh member BK8.",
-      list2: "Bonus berlaku untuk semua produk kecuali Allbet dan Mega888.",
+      list2: "Bonus tidak berlaku untuk Allbet dan Mega888.",
       list3: "Kenaikan level untuk VIP akan secara berurutan mulai dari Bronze sampai dengan Platinum.",
       list4: "VIP Diamond hanya berlaku melalui undangan.",
       list5: "Bonus yang bisa didapat hanyalah bonus di level yang anda capai. Contohnya, apabila anda mencapai level Bronze dari Normal, maka anda hanya bisa mendapatkan bonus Rp 250.000.",
       list6: "Bonus akan otomatis dikreditkan ke dompet pilihan dalam waktu 1x24 jam setelah Manager VIP BK8 menghubungi Anda.",
-      list7: "Syarat dan ketentuan umum promosi BK8 berlaku.",
-      list8: "",
-      list9: "",
+      list7: "Bonus berlaku untuk semua produk.",
+      list8: " Tingkatkan level keanggotaan Anda dan dapatkan bonus instan sebagai hadiah atas keberhasilan Anda mencapai level VIP di BK8.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku.",
     },
     promotion: {
       title1: "Bronze mendapatkan bonus sebesar Rp.250.000 dan memiliki turnover sebanyak 1x",
@@ -538,16 +538,16 @@ export const promotionCard = [
       list4: "Member dapat melakukan penarikan apabila telah mencapai persyaratan 8 kali turnover.",
       list5: "Untuk melihat sejarah referral dan bonus, silakan kunjungi tab referral di halaman akun Anda.",
       list6: "Bonus yang bisa didapat hanyalah bonus di level yang anda capai. Contohnya, apabila anda mencapai level Bronze dari Normal, maka anda hanya bisa mendapatkan bonus Rp 250.000.",
-      list7: "Syarat dan ketentuan umum promosi BK8 berlaku.",
-      list8: "",
-      list9: ""
+      list7: "emakin banyak undangan yang bergabung, semakin banyak bonus yang Anda dapatkan.",
+      list8: "Nikmati bonus untuk Anda dan teman yang Anda undang.",
+      list9: "Syarat dan ketentuan umum promosi BK8 berlaku."
     },
     promotion: {
       title1: "Setiap member aktif BK8 akan memiliki link kode unik referral yang didapatkan secara otomatis melalui system.",
       title2: "Undang teman Anda untuk melakukan pendaftaran di BK8 dengan kode referral Anda.",
       title3: "Temukan url atau kode referral Anda di halaman profil Anda, di bawah tab referral Anda.",
-      title4: "",
-      title5: ""
+      title4: "Baik member yang diundang maupun member yang mengundang akan mendapatkan bonus masing-masing Rp 50.000 yang akan dikreditkan ke dompet utama.",
+      title5: "Member dapat melakukan penarikan apabila telah mencapai persyaratan 8 kali turnover."
     }
   },
   {
