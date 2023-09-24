@@ -25,13 +25,13 @@ const Carousel = () => {
         <Image src={Banner1} alt="Slide 1 " className='object-cover w-full'/>
       </SplideSlide>
       <SplideSlide>
-        <Image src={Banner2} alt="Slide 2"/>
+        <Image src={Banner2} alt="Slide 2" className='object-cover w-full'/>
       </SplideSlide>
       <SplideSlide>
-        <Image src={Banner3} alt="Slide 3"/>
+        <Image src={Banner3} alt="Slide 3" className='object-cover w-full'/>
       </SplideSlide>
       <SplideSlide>
-        <Image src={Banner4} alt="Slide 3"/>
+        <Image src={Banner4} alt="Slide 3" className='object-cover w-full'/>
       </SplideSlide>
     </Splide>
   );

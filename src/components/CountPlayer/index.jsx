@@ -1,16 +1,14 @@
 import { useState, useEffect } from "react";
 
 const Index = () => {
-  const [playerCount, setPlayerCount] = useState(
-    // Periksa jika di lingkungan browser sebelum mengakses localStorage
-    typeof window !== 'undefined' ? parseInt(localStorage.getItem("playerCount") || 30000) : 30000
+  const [playerCount, setPlayerCount] = useState( parseInt(localStorage.getItem("playerCount") || 29981)
   );
 
   useEffect(() => {
     const intervals = [
-      { duration: 3000, limit: 1 }, // Setiap 3 detik selama maksimum 100 pemain
-      { duration: 180000, limit: 1 }, // Setiap 3 menit selama maksimum 1000 pemain
-      { duration: 600000, limit: 1 }, // Setiap 10 menit selama maksimum 100 pemain
+      { duration: 3000, limit: 1 }, // Setiap 3 detik selama maksimum 1 pemain
+      { duration: 180000, limit: 1000 }, // Setiap 3 menit selama maksimum 1 pemain
+      { duration: 600000, limit: 100}, // Setiap 10 menit selama maksimum 1pemain
     ];
 
     let intervalIndex = 0;

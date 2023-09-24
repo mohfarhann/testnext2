@@ -16,11 +16,6 @@ const Games = () => {
           <h1 className="uppercase text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-800 to-black mb-2 md:mb-10">
             Fitur dan keunggulan
           </h1>
-          <p className="text-xs md:text-base">
-            Save time and improve productivity with a customizable workflow,
-            allowing you to automate repetitive tasks and focus on what matters
-            most.
-          </p>
         </div>
         <div className="flex flex-col md:grid md:grid-cols-3 items-center justify-between gap-4 mt-8">
           {cardProduct.map((item) => {
