@@ -11,7 +11,7 @@ import Loader from "@/components/Loader";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0 mt-14 md:mt-28";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0 ";
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Home() {
           <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section className="relative mt-8 md:mt-32">
+          <section className="relative">
             <Image
               src={SportsBanner}
               className="w-full h-[300px] md:h-full object-cover"
@@ -47,40 +47,44 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className={`${wMxAuto}`}>
+          <section className={`${wMxAuto} mt-12`}>
             <div className="flex w-full flex-col">
-              <Tabs aria-label="Dynamic tabs" items={sportGames}>
-                {(item) => (
-                  <Tab key={item.id} title={item.title}>
-                    <Card className="shadow-none">
-                      <CardBody>
-                        <div className="w-full md:w-8/12 md:mx-auto">
-                          <div className="flex flex-col items-center justify-center gap-2">
-                            <h1 className="text-2xl font-bold">{item.title}</h1>
-                            <p className="font-semibold">{item.p}</p>
-                            <p className="">{item.desc}</p>
-                            <Button
-                              as={Link}
-                              color="warning"
-                              href="http://hokiselalu.us/daftar"
-                              variant="solid"
-                              className="w-full md:w-6/12"
-                            >
-                              <p className="text-white">Main Sekarang</p>
-                            </Button>
+              <div className="flex flex-col items-center justify-center">
+                <Tabs aria-label="Dynamic tabs" items={sportGames} className="w-10/12 md:w-full">
+                  {(item) => (
+                    <Tab key={item.id} title={item.title}>
+                      <Card className="shadow-none">
+                        <CardBody>
+                          <div className="w-full md:w-8/12 md:mx-auto">
+                            <div className="flex flex-col items-center justify-center gap-2">
+                              <h1 className="text-2xl font-bold">
+                                {item.title}
+                              </h1>
+                              <p className="font-semibold">{item.p}</p>
+                              <p className="">{item.desc}</p>
+                              <Button
+                                as={Link}
+                                color="warning"
+                                href="http://hokiselalu.us/daftar"
+                                variant="solid"
+                                className="w-full md:w-6/12"
+                              >
+                                <p className="text-white">Main Sekarang</p>
+                              </Button>
+                            </div>
                           </div>
-                        </div>
-                        <div className="w-full h-[180px] md:h-[500px]">
-                          <Image
-                            src={item.imgUrl}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                      </CardBody>
-                    </Card>
-                  </Tab>
-                )}
-              </Tabs>
+                          <div className="w-full h-[180px] md:h-[500px]">
+                            <Image
+                              src={item.imgUrl}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CardBody>
+                      </Card>
+                    </Tab>
+                  )}
+                </Tabs>
+              </div>
             </div>
           </section>
           <section className={`${wMxAuto}`}>

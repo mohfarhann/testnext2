@@ -34,7 +34,7 @@ export default function Home() {
     }, 3000); // Ganti dengan logika pemrosesan data Anda
   }, []);
 
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0 mt-14 md:mt-28";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0";
   const endDate = new Date("2023-09-30");
 
   const remainingTime = useRemainingTime(endDate);

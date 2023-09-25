@@ -130,7 +130,7 @@ export default function Index() {
             href="http://hokiselalu.us/daftar"
             className="font-base text-tiny md:text-xl md:font-bold text-white"
           >
-            Daftar sekarang dan dapatkan Welcome Bonus Rp.20.000.000!
+            Daftar sekarang dan dapatkan Welcome Bonus Rp 20.000.000!
           </Link>
         </div>
       </div>
@@ -153,7 +153,7 @@ export default function Index() {
           </NavbarBrand>
         </NavbarContent>
 
-        <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        <NavbarContent className="hidden sm:flex gap-4 items-center justify-center" justify="center">
           <NavbarBrand>
             <Link href="/">
               <Image src={Logo} width={120} alt="BK8 Logo" />

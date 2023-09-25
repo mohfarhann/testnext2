@@ -41,7 +41,7 @@ const index = () => {
       <div className="w-full mt-8 absolute z-[1]">
         <div className="w-full mx-auto">
           <div className="flex flex-col items-start justify-start gap-8 mb-10">
-            <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-between border-b-2 p-2">
+            <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-between border-b-2 p-2 gap-6">
               <div className="w-full md:w-full">
                 <h1 className="text-base mb-2 font-bold">
                   Mitra Klub Resmi 2022/23

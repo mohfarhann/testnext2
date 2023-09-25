@@ -11,7 +11,7 @@ import Loader from "@/components/Loader";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0 mt-14 md:mt-28";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0 mt-12";
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Home() {
           <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section className="relative mt-8 md:mt-32">
+          <section className="relative">
             <Image
               src={SlotsBanner}
               className="w-full h-[300px] md:h-full object-cover"
@@ -49,35 +49,35 @@ export default function Home() {
           </section>
           <section className={`${wMxAuto}`}>
             <h1 className="text-4xl font-bold">Providers</h1>
-            <div className="flex flex-col md:grid md:grid-cols-4 md:grid-flow-row items-center justify-between gap-4 mt-8">
+            <div className="grid grid-cols-2 md:grid md:grid-cols-4 md:grid-flow-row items-center justify-between gap-4 mt-8">
               {slotCard.map((item) => {
                 return (
                   <div className="w-full" key={item.id}>
-                    <Card className="w-full h-[550px] md:h-[460px] col-span-12 sm:col-span-5">
-                      <CardHeader className="absolute z-10 top-1 flex-col items-start">
-                        <p className="text-tiny text-red-400 uppercase font-bold">
-                          New
-                        </p>
-                      </CardHeader>
-                      <Image
-                        removeWrapper
-                        alt="Card example background"
-                        className="z-0 w-full h-full object-cover"
-                        src={item.imgUrl}
-                      />
-                      <CardFooter className=" justify-between">
-                        <div></div>
-                        <Button
-                          as={Link}
-                          color="warning"
-                          href="http://hokiselalu.us/daftar"
-                          variant="solid"
-                          className="w-full"
-                        >
-                          <p className="text-white">Main Sekarang</p>
-                        </Button>
-                      </CardFooter>
-                    </Card>
+                      <Card className="w-full h-full md:h-[460px] col-span-12 sm:col-span-5">
+                        <CardHeader className="absolute z-10 top-1 flex-col items-start">
+                          <p className="text-tiny text-red-400 uppercase font-bold">
+                            New
+                          </p>
+                        </CardHeader>
+                        <Image
+                          removeWrapper
+                          alt="Card example background"
+                          className="z-0 w-full h-full object-cover"
+                          src={item.imgUrl}
+                        />
+                        <CardFooter className=" justify-between">
+                          <div></div>
+                          <Button
+                            as={Link}
+                            color="warning"
+                            href="http://hokiselalu.us/daftar"
+                            variant="solid"
+                            className="w-full"
+                          >
+                            <p className="text-white">Main Sekarang</p>
+                          </Button>
+                        </CardFooter>
+                      </Card>
                   </div>
                 );
               })}
