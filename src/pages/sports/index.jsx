@@ -50,7 +50,7 @@ export default function Home() {
           <section className={`${wMxAuto} mt-12`}>
             <div className="flex w-full flex-col">
               <div className="flex flex-col items-center justify-center">
-                <Tabs aria-label="Dynamic tabs" items={sportGames} className="w-10/12 md:w-full">
+                <Tabs aria-label="Dynamic tabs" items={sportGames} className="w-10/12 md:w-full mx-auto">
                   {(item) => (
                     <Tab key={item.id} title={item.title}>
                       <Card className="shadow-none">

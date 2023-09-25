@@ -37,7 +37,7 @@ export default function Home() {
           <section className="relative mt-8 md:mt-32">
             <Image
               src={VipBanner}
-              className="w-full h-[300px] md:h-full object-coverr"
+              className="w-full h-[300px] md:h-full object-cover"
             />
             <div className="w-full absolute top-0 h-full p-4">
               <div className="w-full md:w-10/12 md:mx-auto my-20 md:p-8">
