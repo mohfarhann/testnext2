@@ -123,12 +123,8 @@ export default function Index() {
 
 
   return (
-    <div
-      className={`${
-        visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-100%]'
-      } transition-opacity transition-transform duration-300 ease-in-out fixed top-0 left-0 right-0 z-50 bg-white `} 
-    >
-      <div className="w-full bg-blue-800">
+    <div>
+      <div className="w-full bg-blue-800" >
         <div className="flex flex-row items-center justify-center gap-2 text-center p-2">
           <Link
             href="http://hokiselalu.us/daftar"

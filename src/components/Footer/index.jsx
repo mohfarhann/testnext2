@@ -37,16 +37,16 @@ import BeLogo from "@/assets/img/responsible/3.svg";
 
 const index = () => {
   return (
-    <footer className="relative md:h-[650px] ">
+    <footer className="relative md:h-[780px] ">
       <div className="w-full mt-8 absolute z-[1]">
         <div className="w-full mx-auto">
-          <div className="flex flex-col items-start justify-start gap-4 mb-10">
+          <div className="flex flex-col items-start justify-start gap-8 mb-10">
             <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-between border-b-2 p-2">
               <div className="w-full md:w-full">
                 <h1 className="text-base mb-2 font-bold">
                   Mitra Klub Resmi 2022/23
                 </h1>
-                <div className="w-full flex flex-row items-center justify-start gap-2">
+                <div className="w-full flex flex-row items-center justify-start gap-6">
                   <Image src={AsvLogo} width={50} height={70} />
                   <Image src={BfcLogo} width={60} height={200} />
                 </div>
@@ -61,7 +61,7 @@ const index = () => {
                 />
               </div>
             </div>
-            <div className="w-full flex flex-col items-center justify-between gap-2 mt-4">
+            <div className="w-full flex flex-col items-center justify-between gap-6 mt-4">
               <div className="w-full">
                 <h1 className="font-bold mb-2">Metode Pembayaran</h1>
                 <div className="grid grid-rows-4 grid-flow-col md:flex md:flex-row items-start justify-start gap-4">

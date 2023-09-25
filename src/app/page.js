@@ -29,10 +29,10 @@ export default function Home() {
         <Loader />
       ) : (
         <main>
-          <section className="sticky top-0 z-[70] mt-24">
+          <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section className="mt-14 md:mt-32">
+          <section className="">
             <Carousel className="w-full h-full"/>
           </section>
           <section className={`${wMxAuto} p-4 md:p-0 `}>
