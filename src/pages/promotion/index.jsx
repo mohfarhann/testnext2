@@ -65,7 +65,7 @@ export default function Home() {
             <Navbar />
           </section>
           <section className={`${wMxAuto}`}>
-            <div className="w-full flex flex-col items-center justify-between gap-2">
+            <div className="w-full flex flex-col items-center justify-between gap-6 md:gap-2">
               {promotionCard.map((item) => {
                 return (
                   <Card className="py-4" key={item.id}>

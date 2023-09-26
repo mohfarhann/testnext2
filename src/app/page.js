@@ -29,7 +29,7 @@ export default function Home() {
         <Loader />
       ) : (
         <main>
-          <section className="sticky top-0 z-[70]">
+          <section className="sticky top-0 z-[30] p-0 m-0">
             <Navbar />
           </section>
           <section className="">

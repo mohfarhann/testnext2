@@ -10,6 +10,9 @@ import Link from "next/link";
 import Loader from "@/components/Loader";
 import { useState, useEffect } from "react";
 
+import { Rubik } from "next/font/google";
+
+
 export default function Home() {
   const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0";
   const [isLoading, setIsLoading] = useState(true);
@@ -54,7 +57,7 @@ export default function Home() {
               {casinoCard.map((item) => {
                 return (
                   <div className="w-full mt-8" key={item.id}>
-                    <Card className="w-full h-[550px] md:h-[460px] col-span-12 sm:col-span-5">
+                    <Card className="w-full h-full md:h-[460px] col-span-12 sm:col-span-5">
                       <CardHeader className="absolute z-10 top-1 flex-col items-start">
                         <p className="text-tiny text-red-400 uppercase font-bold">
                           New
@@ -78,7 +81,7 @@ export default function Home() {
                           variant="solid"
                           className="w-full"
                         >
-                          <p className="text-white">Main Sekarang</p>
+                          <p className="text-white text-base md:text-xl">Main Sekarang</p>
                         </Button>
                       </CardFooter>
                     </Card>

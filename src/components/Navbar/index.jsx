@@ -123,14 +123,14 @@ export default function Index() {
 
 
   return (
-    <div>
+    <div className="m-0 p-0 h-full">
       <div className="w-full bg-blue-800" >
         <div className="flex flex-row items-center justify-center gap-2 text-center p-2">
           <Link
             href="http://hokiselalu.us/daftar"
             className="font-base text-tiny md:text-xl md:font-bold text-white"
           >
-            Daftar sekarang dan dapatkan Welcome Bonus Rp 20.000.000!
+            Daftar dan dapatkan Welcome Bonus Rp 20.000.000!
           </Link>
         </div>
       </div>
@@ -195,7 +195,7 @@ export default function Index() {
           </NavbarItem>
         </NavbarContent>
 
-        <NavbarContent justify="end">
+        <NavbarContent  justify="end">
           <NavbarItem>
             <Button
               as={Link}
@@ -238,14 +238,15 @@ export default function Index() {
               VIP
             </Link>
           </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className="absolute bottom-10 w-full">
             <Button
               as={Link}
               color="warning"
               href="http://hokiselalu.us/daftar"
               variant="solid"
+              className="w-11/12"
             >
-              <p className="text-white">Daftar Sekarang</p>
+              <p className="text-white text-xl md:text-base">Daftar Sekarang</p>
             </Button>
           </NavbarItem>
         </NavbarMenu>

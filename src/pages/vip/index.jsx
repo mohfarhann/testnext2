@@ -17,7 +17,7 @@ import PlatinumMedal from "@/assets/img/vip/medals/4.png";
 import SilverMedal from "@/assets/img/vip/medals/5.png";
 
 export default function Home() {
-  const wMxAuto = "w-full md:w-8/12 md:mx-auto  p-4 md:p-0";
+  const wMxAuto = "w-full md:w-8/12 md:mx-auto  p-4 md:p-0  mt-12";
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export default function Home() {
       ) : (
         <main className="">
           <Navbar />
-          <section className="relative mt-8 md:mt-32">
+          <section className="relative">
             <Image
               src={VipBanner}
               className="w-full h-[300px] md:h-full object-cover"
@@ -96,13 +96,13 @@ export default function Home() {
                 <Image
                   removeWrapper
                   alt="Relaxing app background"
-                  className="z-0 w-full h-full object-cover"
+                  className="z-0 w-full h-[900px] md:h-full object-cover"
                   src={VipBanner2}
                 />
               </Card>
             </div>
           </section>
-          <section className={`${wMxAuto}`}>
+          <section className={`${wMxAuto} `}>
             <div className="w-full">
               <div className="flex flex-col items-center justify-between gap-4">
                 <div className="md:w-6/12 text-center">
@@ -145,7 +145,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-col items-center justify-between gap-4 w-full">
+                <div className="flex flex-col items-center justify-between gap-4 w-full mt-12">
                   <div className="w-full ">
                     <p className="text-2xl ">Bagaimana Caranya?</p>
                     <h1 className="text-2xl text-red-500">

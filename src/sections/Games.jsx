@@ -21,9 +21,9 @@ const Games = () => {
           {cardProduct.map((item) => {
             return (
               <Card className="col-span-12 sm:col-span-4 h-[400px] md:h-full" key={item.id}>
-                <CardHeader className="absolute z-10 top-1 flex-col items-start p-4 gap-2 w-full md:w-6/12 h-full" key={item.id}>
+                <CardHeader className="absolute z-10 top-0 flex-col items-start p-4 gap-2 w-full md:w-6/12 h-full bg-gradient-to-r from-blue-950 to-transparent md:bg-transparent" key={item.id}>
                   <p className="text-tiny text-white/60 uppercase font-bold">
-                    {item.header}
+                    {item.title}
                   </p>
                   <h4 className="text-white font-medium text-large">
                     {item.header}

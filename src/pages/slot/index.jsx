@@ -47,12 +47,12 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className={`${wMxAuto}`}>
+          <section className={`${wMxAuto} mt-12`}>
             <h1 className="text-4xl font-bold">Providers</h1>
-            <div className="grid grid-cols-2 md:grid md:grid-cols-4 md:grid-flow-row items-center justify-between gap-4 mt-8">
+            <div className="grid grid-cols-2 md:grid md:grid-cols-4 md:grid-flow-row items-center justify-between gap-6 mt-8">
               {slotCard.map((item) => {
                 return (
-                  <div className="w-full" key={item.id}>
+                  <div className="w-full mt-8" key={item.id}>
                       <Card className="w-full h-full md:h-[460px] col-span-12 sm:col-span-5">
                         <CardHeader className="absolute z-10 top-1 flex-col items-start">
                           <p className="text-tiny text-red-400 uppercase font-bold">
