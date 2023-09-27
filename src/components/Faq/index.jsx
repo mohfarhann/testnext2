@@ -37,7 +37,7 @@ const FAQ = ({question, answer}) => {
         </svg>
       </div>
       {isOpen && (
-        <p className="mt-2 text-gray-600 bg-white p-4">
+        <p className="mt-2 text-gray-600 bg-[#ffffff] p-4">
           {answer}
         </p>
       )}

@@ -17,18 +17,18 @@ const Games = () => {
             Fitur dan keunggulan
           </h1>
         </div>
-        <div className="flex flex-col md:grid md:grid-cols-3 items-center justify-between gap-4 mt-8">
+        <div className="flex flex-col items-center justify-between gap-4 mt-8">
           {cardProduct.map((item) => {
             return (
-              <Card className="col-span-12 sm:col-span-4 h-[400px] md:h-full" key={item.id}>
+              <Card className="col-span-12 sm:col-span-4 h-[420px] sm:h-[410px] md:h-[480px] lg:h-[430px] xl:h-[380px] bg-slate-200" key={item.id}>
                 <CardHeader className="absolute z-10 top-0 flex-col items-start p-4 gap-2 w-full md:w-6/12 h-full bg-gradient-to-r from-blue-950 to-transparent md:bg-transparent" key={item.id}>
-                  <p className="text-tiny text-white/60 uppercase font-bold">
+                  <p className="text-xl text-white/60 uppercase font-bold">
                     {item.title}
                   </p>
                   <h4 className="text-white font-medium text-large">
                     {item.header}
                   </h4>
-                  <p className="text-tiny text-white uppercase font-bold">
+                  <p className="text-base  text-white font-bold">
                     {item.desc}
                   </p>
                   <ul className="text-white">
@@ -39,8 +39,8 @@ const Games = () => {
                     <li>- {item.list.list5}</li>
                     <li>- {item.list.list6}</li>
                   </ul>
-                  <Button as={Link} color="warning" href="http://hokiselalu.us/daftar" variant="solid" className=" absolute bottom-4 w-6/12 md:w-4/12 ">
-                    <p className="text-white">Main Sekarang</p>
+                  <Button as={Link} color="warning" href="http://hokiselalu.us/daftar" variant="solid" className=" absolute bottom-4 w-6/12 md:w-6/12 lg:w-6/12">
+                    <p className="text-white text-lg md:text-base">Main Sekarang</p>
                   </Button>
                 </CardHeader>
                 <Image

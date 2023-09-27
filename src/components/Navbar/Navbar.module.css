@@ -1,11 +1,7 @@
-.navbar {
-  position: fixed; /* Membuat Navbar tetap di posisi saat scrolling */
-  top: 0; /* Navbar akan muncul di bagian atas halaman */
-  width: 100%; /* Navbar akan mengisi seluruh lebar halaman */
-  z-index: 1000; /* Mengatur z-index agar Navbar tetap di atas konten lain */
-  transition: top 0.3s ease-in-out; /* Animasi perubahan posisi saat scroll */
+.navbar-wrapper {
+  transition: top 0.3s;
 }
 
-.navbar.hidden {
-  top: -100px; /* Menyembunyikan Navbar saat scrolling ke atas */
+.navbar-wrapper.hidden {
+  top: -100px;
 }

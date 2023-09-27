@@ -31,7 +31,7 @@ const Carousel = () => {
         <Image src={Banner3} alt="Slide 3" className='object-cover w-full'/>
       </SplideSlide>
       <SplideSlide>
-        <Image src={Banner4} alt="Slide 3" className='object-cover w-full'/>
+        <Image src={Banner4} alt="Slide 4" className='object-cover w-full'/>
       </SplideSlide>
     </Splide>
   );

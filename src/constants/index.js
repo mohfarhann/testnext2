@@ -67,23 +67,23 @@ import PromtionPict12 from "@/assets/img/promotion/12.jpg"
 export const cardWhy = [
   {
     imgUrl: security,
-    title: "Aman terpercaya",
+    title: "Aman Terpercaya",
     desc: "Menggunakan teknologi enkripsi 128-bit dan autentikasi dua faktor untuk keamanan data pemain. BK8 juga memiliki lisensi dan regulasi resmi dari pemerintah Curacao.",
   },
   {
     imgUrl: bonus,
-    title: "Bonus terbesar",
+    title: "Bonus Terbesar",
     desc: "Kami menawarkan bonus melimpah hingga puluhan juta rupiah setiap harinya, termasuk bonus cashback slot, sportsbook, rebate instant, dan welcome bonus.",
   },
   {
     imgUrl: limit,
     title: "Metode Pembayaran",
-    desc: "Terdapat beragam metode pembayaran yang tersedia, seperti eWallet, transfer bank, QR Pay, dan cryptocurrency, untuk mempermudah pengalaman bertransaksi Anda di platform kami.",
+    desc: "Terdapat beragam metode pembayaran yang tersedia, seperti e-Wallet, transfer bank, QR Pay, dan cryptocurrency, untuk mempermudah pengalaman bertransaksi Anda di platform kami.",
   },
   {
     imgUrl: penarikan,
     title: "Minimum Deposit",
-    desc: "Kami menetapkan biaya transfer bank sebesar Rp 25.000, Quick Pay sebesar Rp 50.000, transaksi menggunakan cryptocurrency minimum biaya Rp 25.000, dan QR/E-Wallet hanya Rp 10.000 untuk setiap transaksi.",
+    desc: "Kami menetapkan biaya transfer bank sebesar Rp 25.000, Quick Pay sebesar Rp 50.000, transaksi menggunakan cryptocurrency minimum biaya Rp 25.000, dan QR/e-Wallet hanya Rp 10.000 untuk setiap transaksi.",
   },
 ];
 
@@ -92,8 +92,8 @@ export const cardProduct = [
     id: 1,
     imgUrl: SportsBanner,
     title: "BK8 Sports",
-    header: "Taruhan olahraga dengan odds terbaik",
-    desc: " Pasang taruhan Anda pada berbagai jenis olahraga dan kompetisi di seluruh dunia di BK8.",
+    header: "Taruhan Olahraga dengan odds terbaik",
+    desc: "Pasang taruhan Anda pada berbagai jenis olahraga dan kompetisi di seluruh dunia di BK8.",
     list: {
       list: "20+ jenis olahraga",
       list2: "Odds kompetitif",
@@ -107,10 +107,10 @@ export const cardProduct = [
     id: 2,
     imgUrl: CasinoBanner,
     title: "BK8 Casino",
-    header: "Permainan Real-Time bersama live dealer",
-    desc: "Rasakan sensasi bermain live casino seperti Blackjack, Roulette, dan Baccarat langsung dengan live dealer.",
+    header: "Permainan Real-Time bersama Live Dealer",
+    desc: "Rasakan sensasi bermain Live Casino seperti Blackjack, Roulette, dan Baccarat langsung dengan Live Dealer.",
     list: {
-      list: "30+ permainan casino",
+      list: "30+ permainan Casino",
       list2: "Dealer professional",
       list3: "Permainan fair play",
       list4: "Berbagai pilihan taruhan",
@@ -121,11 +121,11 @@ export const cardProduct = [
   {
     id: 3,
     imgUrl: SlotsBanner,
-    title: "BK8 Slot",
+    title: "BK8 Slots",
     header: "Mesin slot online dengan RTP tinggi",
-    desc: " Mainkan ratusan mesin slot online dengan tema unik dan fitur bonus yang menarik di BK8.",
+    desc: " Mainkan ratusan mesin Slot online dengan tema unik dan fitur bonus yang menarik di BK8.",
     list: {
-      list: "200+ mesin slot",
+      list: "200+ mesin Slots",
       list2: "RTP di atas 90%",
       list3: "Fitur bonus",
       list4: "Provider terkemuka",
@@ -161,7 +161,7 @@ export const sportGames = [
     id: 4,
     title: "Sbobet Sports",
     p: "Sportsbook online paling terkemuka di Asia",
-    desc: "SBO Sports adalah permainan taruhan olahraga yang disediakan oleh SBO. SBO sendiri merupakan Spesialis Handicap Asia yang menawarkan berbagai taruhan pertandingan langsung kurang lebih 1500 acara olahraga. Memiliki Customer Service profesional yang tersedia 24/7 untuk terus membantu Anda",
+    desc: "SBO Sports adalah permainan taruhan olahraga yang disediakan oleh SBO. SBO sendiri merupakan Spesialis Handicap Asia yang menawarkan berbagai taruhan pertandingan langsung kurang lebih 1500 acara olahraga. Memiliki Customer Service profesional yang tersedia 24/7 untuk terus membantu Anda.",
     imgUrl: SbobetGamesBanner,
   },
 ];

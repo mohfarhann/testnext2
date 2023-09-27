@@ -37,7 +37,7 @@ import BeLogo from "@/assets/img/responsible/3.svg";
 
 const index = () => {
   return (
-    <footer className="relative md:h-[780px] ">
+    <footer className="relative h-[1080px] sm:h-[1080px] md:h-[930px] lg:h-[930px] xl:h-[930px] 2xl:h-[750px]">
       <div className="w-full mt-8 absolute z-[1]">
         <div className="w-full mx-auto">
           <div className="flex flex-col items-start justify-start gap-8 mb-10">
@@ -64,7 +64,7 @@ const index = () => {
             <div className="w-full flex flex-col items-center justify-between gap-6 mt-4">
               <div className="w-full">
                 <h1 className="font-bold mb-2">Metode Pembayaran</h1>
-                <div className="grid grid-rows-4 grid-flow-col md:flex md:flex-row items-start justify-start gap-4">
+                <div className="grid grid-rows-4 grid-flow-col 2xl:flex 2xl:flex-row items-start justify-start gap-4">
                   <Image src={BtcLogo} width={35} height={35} />
                   <Image src={UsdLogo} width={35} height={35} />
                   <Image src={EteLogo} width={35} height={35} />

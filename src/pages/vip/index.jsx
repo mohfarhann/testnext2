@@ -24,7 +24,7 @@ export default function Home() {
     // Simulasikan pemrosesan data
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // Ganti dengan logika pemrosesan data Anda
+    }, 2000); // Ganti dengan logika pemrosesan data Anda
   }, []);
 
   return (
@@ -33,15 +33,17 @@ export default function Home() {
         <Loader />
       ) : (
         <main className="">
-          <Navbar />
+          <section className="sticky top-0 z-[70]">
+            <Navbar />
+          </section>
           <section className="relative">
             <Image
               src={VipBanner}
               className="w-full h-[300px] md:h-full object-cover"
             />
-            <div className="w-full absolute top-0 h-full p-4">
+            <div className="w-full absolute top-0 h-full p-4  bg-gradient-to-r from-black to-transparent md:bg-transparent">
               <div className="w-full md:w-10/12 md:mx-auto my-20 md:p-8">
-                <h1 className="text-4xl md:text-6xl text-white">
+                <h1 className="text-4xl md:text-6xl text-white font-bold">
                   Supreme <br /> Ruang VIP
                 </h1>
                 <p className="text-md md:text-xl text-white mt-2">
@@ -55,7 +57,7 @@ export default function Home() {
             <div className="w-full">
               <Card className="w-full col-span-12 sm:col-span-7">
                 <CardHeader className="absolute md:w-6/12 z-10 top-1 flex-col items-start p-8">
-                  <p className="text-tiny text-red-500 uppercase font-bold">
+                  <p className="text-xl text-red-500 uppercase font-bold mb-2">
                     Jadilah Member VIP BK8
                   </p>
                   <h4 className="text-white/90 font-medium text-xl">
@@ -106,7 +108,7 @@ export default function Home() {
             <div className="w-full">
               <div className="flex flex-col items-center justify-between gap-4">
                 <div className="md:w-6/12 text-center">
-                  <h1 className="text-red-500 text-2xl font-bold">
+                  <h1 className="text-red-500 text-2xl font-bold uppercase">
                     Minimum Deposit dalam Sebulan
                   </h1>
                 </div>
@@ -145,10 +147,10 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-col items-center justify-between gap-4 w-full mt-12">
+                <div className="flex flex-col items-center justify-between gap-8 w-full mt-12">
                   <div className="w-full ">
-                    <p className="text-2xl ">Bagaimana Caranya?</p>
-                    <h1 className="text-2xl text-red-500">
+                    <p className="text-2xl mb-4">Bagaimana Caranya?</p>
+                    <h1 className="text-2xl text-red-500 uppercase font-bold">
                       Perjalanan VIP BK8
                     </h1>
                     <p>
@@ -167,7 +169,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="w-full ">
-                    <h1 className="text-2xl text-red-500">
+                    <h1 className="text-2xl text-red-500 font-bold">
                       TINGKATAN LEVEL VIP ANDA SEKARANG
                     </h1>
                     <p>
@@ -183,7 +185,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="w-full ">
-                    <h1 className="text-2xl text-red-500">
+                    <h1 className="text-2xl text-red-500 font-bold">
                       PROGRAM TRANSFER VIP
                     </h1>
                     <p>
@@ -212,17 +214,15 @@ export default function Home() {
                 </div>
                 <div className="w-full">
                   <div className="">
-                    <h1 className="text-red-500 font-bold text-2xl">
+                    <h1 className="text-red-500 font-bold uppercase text-2xl">
                       Bagaimana cara menjadi VIP?
                     </h1>
-                    <br />
                     <p>
                       Untuk menikmati rangkaian hadiah VIP, member harus
                       memenuhi persyaratan setoran minimum yang telah ditetapkan
                       di atas dalam jangka waktu yang diberikan atau dengan
                       undangan khusus.
                     </p>
-                    <br />
                     <p>
                       Bayangin Anda memiliki apa yang Anda perlukan? Naik level
                       dan raih puncak sekarang.

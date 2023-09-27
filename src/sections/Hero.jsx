@@ -21,13 +21,13 @@ const Hero = () => {
         </div>
         <div className="flex flex-row items-center justify-between gap-4">
           <div className="w-8/12">
-            <Button as={Link} color="warning" href="http://hokiselalu.us/daftar" variant="solid" className="w-full">
-              <p className="text-white">Daftar Sekarang</p>
+            <Button as={Link} color="warning" href="http://hokiselalu.us/daftar" variant="solid" className="w-full" size="lg">
+              <p className="text-white text-lg">Daftar</p>
             </Button>
           </div>
           <div className="w-4/12">
-            <Button as={Link} color="primary" href="http://hokiselalu.us/daftar" variant="light" className="w-full">
-              <p className="text-blue-600">Login</p>
+            <Button as={Link} color="primary" href="http://hokiselalu.us/daftar" variant="light" className="w-full" size="lg">
+              <p className="text-blue-600 text-lg">Login</p>
             </Button>
           </div>
         </div>

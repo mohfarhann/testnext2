@@ -18,7 +18,7 @@ export default function Home() {
     // Simulasikan pemrosesan data
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // Ganti dengan logika pemrosesan data Anda
+    }, 2000); // Ganti dengan logika pemrosesan data Anda
   }, []);
 
   return (
@@ -35,9 +35,9 @@ export default function Home() {
               src={SportsBanner}
               className="w-full h-[300px] md:h-full object-cover"
             />
-            <div className="w-full absolute top-0 h-full p-4">
-              <div className="w-full md:w-8/12 md:mx-auto my-20 md:p-8">
-                <h1 className="text-4xl md:text-6xl text-white">Sportsbook</h1>
+            <div className="w-full absolute top-0 h-full p-4 bg-gradient-to-r from-blue-800 to-transparent md:bg-transparent">
+              <div className="w-full md:w-8/12 md:mx-auto my-20 md:p-8 ">
+                <h1 className="text-4xl md:text-6xl text-white font-bold">Sportsbook</h1>
                 <p className="text-md md:text-xl text-white mt-2">
                   Nikmati kelas online dunia
                 </p>

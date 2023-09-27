@@ -7,8 +7,8 @@ import Head from "next/head";
 const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "BK8 | Login dan Daftar Situs Judi Slot Terpercaya Indonesia",
-  description: "BK8 merupakan situs judi bola, slot dan online casino terbesar dan terpercaya di Indonesia. Daftar dan dapatkan welcome bonus hingga Rp 20.000.000!",
+  title: "BK8 | Situs Judi Bola, Slot dan Kasino Terpercaya di Indonesia 2023",
+  description: "Nikmati sensasi bermain game online di BK8. Mulai dari poker, slot, judi bola &amp; live casino. Daftar dan menangkan bonus hingga Rp 20.000.000!",
   locale: "id_ID",
   type: "article",
   icons: {
