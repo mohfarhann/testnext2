@@ -44,11 +44,10 @@ export default function Home() {
             <div className="w-full absolute top-0 h-full p-4  bg-gradient-to-r from-black to-transparent md:bg-transparent">
               <div className="w-full md:w-10/12 md:mx-auto my-20 md:p-8">
                 <h1 className="text-4xl md:text-6xl text-white font-bold">
-                  Supreme <br /> Ruang VIP
+                  Ruang VIP
                 </h1>
                 <p className="text-md md:text-xl text-white mt-2">
-                  BK8 akan menunjukkan betapa luarbiasanya menjadi VIP kami,
-                  <br /> nantikan sesuatu yang luar biasa
+                  BK8 akan menunjukkan betapa luar biasanya menjadi VIP kami,<br/> nantikan sesuatu yang luar biasa
                 </p>
               </div>
             </div>
@@ -56,8 +55,8 @@ export default function Home() {
           <section className={`${wMxAuto}`}>
             <div className="w-full">
               <Card className="w-full col-span-12 sm:col-span-7">
-                <CardHeader className="absolute md:w-6/12 z-10 top-1 flex-col items-start p-8">
-                  <p className="text-xl text-red-500 uppercase font-bold mb-2">
+                <CardHeader className="absolute md:w-8/12 z-10 top-1 flex-col items-start p-8 gap-4">
+                  <p className="text-xl text-red-500 uppercase font-bold ">
                     Jadilah Member VIP BK8
                   </p>
                   <h4 className="text-white/90 font-medium text-xl">
@@ -65,7 +64,6 @@ export default function Home() {
                     spesial, Hadiah, dan Rebate - lebih dari yang anda
                     bayangkan.
                   </h4>
-                  <br />
                   <p className="text-sm text-white">
                     Sebagai website permainan online yang paling inovatif di
                     Indonesia dan segala kemudahannya, BK8 tidak pernah berhenti
@@ -73,7 +71,6 @@ export default function Home() {
                     sampai servis, BK8 selalu memberikan yang terbaik dan
                     terkini.
                   </p>
-                  <br />
                   <p className="text-sm text-white">
                     Untuk meningkatkan level, BK8 kini memperkenalkan program
                     VIP paling ekslusif yang bisa dinikmati berbagai kalangan,
@@ -86,7 +83,6 @@ export default function Home() {
                     Rebate spesial dan bonus kenaikan tingkat juga akan
                     memberikan anda kenyamanan lebih dalam bermain!
                   </p>
-                  <br />
                   <p className="text-sm text-white">
                     Tujuan kami dengan program tingkatan ini adalah membuka
                     peluang untuk semua member agar bisa menikmati keuntungan.
@@ -98,7 +94,7 @@ export default function Home() {
                 <Image
                   removeWrapper
                   alt="Relaxing app background"
-                  className="z-0 w-full h-[900px] md:h-full object-cover"
+                  className="z-0 w-full h-[800px] sm:h-[600px] md:h-[900px] lg:h-[700px] xl:h-[600px] object-cover"
                   src={VipBanner2}
                 />
               </Card>

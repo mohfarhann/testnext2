@@ -44,7 +44,7 @@ const index = () => {
             <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-between border-b-2 p-2 gap-6 pb-4">
               <div className="w-full md:w-full">
                 <h1 className="text-base mb-2 font-bold">
-                  Mitra Klub Resmi 2022/23
+                  Mitra Klub Resmi 2023/24
                 </h1>
                 <div className="w-full flex flex-row items-center justify-start gap-6">
                   <Image src={AsvLogo} width={50} height={70} />
