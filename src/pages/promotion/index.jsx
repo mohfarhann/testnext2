@@ -19,7 +19,7 @@ import Link from "next/link";
 import { useRemainingTime } from "@/utils/calculateDate";
 import { useState, useEffect } from "react";
 import Loader from "@/components/Loader";
-import { AiFillCaretRight } from "react-icons/ai";
+import { MdCircle } from "react-icons/md";
 
 export default function Home() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -64,7 +64,7 @@ export default function Home() {
           <section className="sticky top-0 z-[70]">
             <Navbar />
           </section>
-          <section className={`${wMxAuto}`}>
+          <section className={`${wMxAuto} mt-4`}>
             <div className="w-full flex flex-col items-center justify-between gap-6 md:gap-2">
               {promotionCard.map((item) => {
                 return (
@@ -145,31 +145,31 @@ export default function Home() {
                     <div className="flex flex-col items-start justify-center gap-2 text-small">
                       <p className="flex flex-row items-center justify-center gap-2">
                         <label>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs"/>
                         </label>
                         {selectedPromotion.promotion.title1}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.promotion.title2}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.promotion.title3}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.promotion.title4}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.promotion.title5}
                       </p>
@@ -180,49 +180,49 @@ export default function Home() {
                     <div className="flex flex-col items-start justify-center gap-2 text-small">
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list1}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list2}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list3}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list4}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list5}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list6}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list7}
                       </p>
                       <p className="flex flex-row items-center justify-center gap-2">
                         <span>
-                          <AiFillCaretRight />
+                          <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list8}
                       </p>
