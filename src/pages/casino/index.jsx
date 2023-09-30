@@ -12,7 +12,14 @@ import { useState, useEffect } from "react";
 
 import { Rubik } from "next/font/google";
 
-
+// export async function getStaticProps() {
+//   const cardItem = casinoCard()
+//   return {
+//     props: {
+//       cardItem
+//     }
+//   }
+// }
 export default function Home() {
   const wMxAuto = "w-full md:w-8/12 md:mx-auto p-4 md:p-0";
   const [isLoading, setIsLoading] = useState(true);
@@ -37,6 +44,7 @@ export default function Home() {
             <Image
               src={CasinoBanner}
               className="w-full h-[300px] md:h-full object-cover"
+              alt="banner casino"
             />
             <div className="w-full absolute top-0 h-full p-4">
               <div className="w-full md:w-8/12 md:mx-auto my-20 md:p-8">

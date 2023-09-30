@@ -6,29 +6,15 @@ import Why from "@/sections/Why";
 import Games from "@/sections/Games";
 import FAQ from "@/components/Faq";
 import Footer from "@/components/Footer";
-import Link from "next/link";
-import Loader from "@/components/Loader";
-import { useState, useEffect } from "react";
 
 const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
 
 export default function Home() {
   const wMxAuto = "w-full md:w-8/12 md:mx-auto mt-14 md:mt-28";
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulasikan pemrosesan data
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000); // Ganti dengan logika pemrosesan data Anda
-  }, []);
-
+  
   return (
     <>
-      {isLoading ? (
-        <Loader />
-      ) : (
-        <main>
+       <main>
           <section className="sticky top-0 z-[30] p-0 m-0">
             <Navbar />
           </section>
@@ -125,7 +111,6 @@ export default function Home() {
             <Footer />
           </section>
         </main>
-      )}
     </>
   );
 }

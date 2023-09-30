@@ -47,8 +47,8 @@ const index = () => {
                   Mitra Klub Resmi 2023/24
                 </h1>
                 <div className="w-full flex flex-row items-center justify-start gap-6">
-                  <Image src={AsvLogo} width={50} height={70} />
-                  <Image src={BfcLogo} width={60} height={200} />
+                  <Image src={AsvLogo} width={50} height={70} alt=""/>
+                  <Image src={BfcLogo} width={60} height={200} alt=""/>
                 </div>
               </div>
               <div className="w-full md:w-full">
@@ -58,6 +58,7 @@ const index = () => {
                   width={120}
                   height={60}
                   className="mb-2 mt-2"
+                  alt=""
                 />
               </div>
             </div>
@@ -65,51 +66,51 @@ const index = () => {
               <div className="w-full">
                 <h1 className="font-bold mb-2">Metode Pembayaran</h1>
                 <div className="grid grid-rows-4 grid-flow-col 2xl:flex 2xl:flex-row items-start justify-start gap-4">
-                  <Image src={BtcLogo} width={35} height={35} />
-                  <Image src={UsdLogo} width={35} height={35} />
-                  <Image src={EteLogo} width={35} height={35} />
-                  <Image src={CimbLogo} width={140} height={35} />
-                  <Image src={ManLogo} width={100} height={35} />
-                  <Image src={BniLogo} width={100} height={35} />
-                  <Image src={BcaLogo} width={100} height={35} />
-                  <Image src={BriLogo} width={120} height={35} />
-                  <Image src={EziLogo} width={105} height={35} />
-                  <Image src={HelpLogo} width={70} height={35} />
-                  <Image src={DraLogo} width={102} height={35} />
+                  <Image alt="" src={BtcLogo} width={35} height={35} />
+                  <Image alt="" src={UsdLogo} width={35} height={35} />
+                  <Image alt="" src={EteLogo} width={35} height={35} />
+                  <Image alt="" src={CimbLogo} width={140} height={35} />
+                  <Image alt="" src={ManLogo} width={100} height={35} />
+                  <Image alt="" src={BniLogo} width={100} height={35} />
+                  <Image alt="" src={BcaLogo} width={100} height={35} />
+                  <Image alt="" src={BriLogo} width={120} height={35} />
+                  <Image alt="" src={EziLogo} width={105} height={35} />
+                  <Image alt="" src={HelpLogo} width={70} height={35} />
+                  <Image alt="" src={DraLogo} width={102} height={35} />
                 </div>
               </div>
               <div className="w-full">
                 <h1 className="font-bold mb-2">Lisensi</h1>
                 <div className="grid grid-rows-2 grid-flow-col md:flex md:flex-row items-start justify-start gap-4">
-                  <Image src={BmmLogo} width={80} height={35} />
-                  <Image src={ItechLogo} width={50} height={35} />
-                  <Image src={GliLogo} width={120} height={35} />
-                  <Image src={TstLogo} width={50} height={35} />
-                  <Image src={GoLogo} width={80} height={35} />
+                  <Image alt="" src={BmmLogo} width={80} height={35} />
+                  <Image alt="" src={ItechLogo} width={50} height={35} />
+                  <Image alt="" src={GliLogo} width={120} height={35} />
+                  <Image alt="" src={TstLogo} width={50} height={35} />
+                  <Image alt="" src={GoLogo} width={80} height={35} />
                 </div>
               </div>
               <div className="w-full">
                 <h1 className="font-bold mb-2">Ikuti Kami</h1>
                 <div className="flex flex-row items-start justify-start gap-4">
-                  <Image src={FbLogo} width={35} height={35} />
-                  <Image src={IgLogo} width={35} height={35} />
-                  <Image src={YtLogo} width={35} height={35} />
-                  <Image src={TwitLogo} width={35} height={35} />
+                  <Image alt="" src={FbLogo} width={35} height={35} />
+                  <Image alt="" src={IgLogo} width={35} height={35} />
+                  <Image alt="" src={YtLogo} width={35} height={35} />
+                  <Image alt="" src={TwitLogo} width={35} height={35} />
                 </div>
               </div>
               <div className="w-full">
                 <h1 className="font-bold mb-2">Keamanan</h1>
                 <div className="flex flex-row items-start justify-start gap-4">
-                  <Image src={IonLogo} width={120} height={35} />
-                  <Image src={MetLogo} width={120} height={35} />
+                  <Image alt="" src={IonLogo} width={120} height={35} />
+                  <Image alt="" src={MetLogo} width={120} height={35} />
                 </div>
               </div>
               <div className="w-full">
                 <h1 className="font-bold mb-2">Responsible Gaming</h1>
                 <div className="flex flex-row items-start justify-start gap-4">
-                  <Image src={Logo18} width={45} height={35} />
-                  <Image src={GamecLogo} width={70} height={35} />
-                  <Image src={BeLogo} width={45} height={35} />
+                  <Image alt="" src={Logo18} width={45} height={35} />
+                  <Image alt="" src={GamecLogo} width={70} height={35} />
+                  <Image alt="" src={BeLogo} width={45} height={35} />
                 </div>
               </div>
             </div>

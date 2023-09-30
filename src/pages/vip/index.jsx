@@ -40,6 +40,7 @@ export default function Home() {
             <Image
               src={VipBanner}
               className="w-full h-[300px] md:h-full object-cover"
+              alt="banner vip"
             />
             <div className="w-full absolute top-0 h-full p-4  bg-gradient-to-r from-black to-transparent md:bg-transparent">
               <div className="w-full md:w-10/12 md:mx-auto my-20 md:p-8">
@@ -110,7 +111,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col md:flex-row items-center justify-between gap-8">
                   <div className="text-center">
-                    <Image src={BronzeMedal} />
+                    <Image src={BronzeMedal} alt=""/>
                     <p className="text-md font-semibold">Bronze</p>
                     <p className="text-xl font-semibold text-red-500">50,000</p>
                   </div>
@@ -122,21 +123,21 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="text-center">
-                    <Image src={DiamondMedal} />
+                    <Image src={DiamondMedal} alt=""/>
                     <p className="text-md font-semibold ">Diamond</p>
                     <p className="text-xl font-semibold text-red-500">
                       Undangan
                     </p>
                   </div>
                   <div className="text-center">
-                    <Image src={PlatinumMedal} />
+                    <Image src={PlatinumMedal} alt=""/>
                     <p className="text-md font-semibold ">Platinum</p>
                     <p className="text-xl font-semibold text-red-500">
                       1,000,000
                     </p>
                   </div>
                   <div className="text-center">
-                    <Image src={SilverMedal} />
+                    <Image src={SilverMedal} alt=""/>
                     <p className="text-md font-semibold">Silver</p>
                     <p className="text-xl font-semibold text-red-500">
                       150,000

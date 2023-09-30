@@ -137,37 +137,38 @@ export default function Home() {
                       <Image
                         src={selectedPromotion.imgUrl}
                         className="w-full object-cover rounded-md"
+                        alt="banner promotion"
                       />
                     </div>
                     <p className="text-xl md:text-4xl font-bold">
                       Detail Promosi{" "}
                     </p>
                     <div className="flex flex-col items-start justify-center gap-2 text-small">
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <label>
                           <MdCircle className="text-blue-800 text-xs"/>
                         </label>
                         {selectedPromotion.promotion.title1}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.promotion.title2}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.promotion.title3}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.promotion.title4}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
@@ -178,49 +179,49 @@ export default function Home() {
                       Syarat dan Ketentuan
                     </p>
                     <div className="flex flex-col items-start justify-center gap-2 text-small">
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list1}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list2}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list3}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list4}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list5}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list6}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>
                         {selectedPromotion.list.list7}
                       </p>
-                      <p className="flex flex-row items-center justify-center gap-2">
+                      <p className="flex flex-row items-start justify-center gap-2">
                         <span>
                           <MdCircle className="text-blue-800 text-xs" />
                         </span>

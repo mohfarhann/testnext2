@@ -34,6 +34,7 @@ export default function Home() {
             <Image
               src={SlotsBanner}
               className="w-full h-[300px] md:h-full object-cover"
+              alt="banner slot"
             />
             <div className="w-full absolute top-0 h-full p-4 bg-gradient-to-r from-red-950 to-transparent md:bg-transparent">
               <div className="w-full md:w-8/12 md:mx-auto my-20 md:p-8">

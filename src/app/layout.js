@@ -1,8 +1,6 @@
 import "./globals.css";
-import { Inter, Montserrat,Rubik } from "next/font/google";
+import { Rubik } from "next/font/google";
 import { Providers } from "./providers";
-import Link from "next/link";
-import Head from "next/head";
 
 const inter = Rubik({ subsets: ["latin"] });
 
