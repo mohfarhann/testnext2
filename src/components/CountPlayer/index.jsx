@@ -1,8 +1,9 @@
-"use client"
 import React, { useState, useEffect, useRef } from 'react';
 
 const Index = () => {
-  const playerCountRef = useRef(9981);
+  const playerCountRef = useRef(
+    parseInt(localStorage.getItem('playerCount') || 29981)
+  );
   const [displayCount, setDisplayCount] = useState(playerCountRef.current);
   const intervalIndexRef = useRef(0);
   const currentTimeoutRef = useRef();

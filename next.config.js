@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  experimental: {
+    ssr: false
+  },
   output: "export",
-  exportStaticRoute: ["/"]
 }
 
 module.exports = nextConfig
